@@ -6,3 +6,21 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// style template
+@import 'ithoststyle';
+
+// overrides
+
+.hero-section {
+    height: 500px;
+}
+
+.hero-content {
+    align-items: flex-end;
+}
+
+.spad p, .spad li {
+    font-size: 18px;
+    font-family: Nunito;
+}
