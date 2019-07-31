@@ -55,6 +55,8 @@ Migrate:
 ```
 php artisan migrate
 ```
+php artisan key:generate
+```
 
 
 
