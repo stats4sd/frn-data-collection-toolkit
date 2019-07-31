@@ -19,3 +19,44 @@ _A platform for researchers to share instruments, methods, and improve harmonisa
     - enabling quick packaging of particular sets of tools onto portable media (USB Sticks, DVDs)
     - ability to quickly print packs of analogue materials for sharing and discussions offline / without computers.
 
+## Setup Dev Environment
+
+### Standard Laravel setup
+
+In a terminal window, starting where-ever you put your local development sites:
+
+```
+git clone git@github.com:stats4sd/frn-data-collection-toolkit.git frn-data
+cd frn-data
+composer install
+npm install
+cp .env-example .env
+```
+Then, update the values in .env:
+
+```
+APP_URL=http://frn-data.test
+
+DB_DATABASE=frndata
+DB_USERNAME= ##your_local_mysql_username##
+DB_PASSWORD= ##your_local_mysql_password##
+```
+
+Create the database: 
+```
+mysql -u ##your_local_mysql_username## -p 
+(enter your password)
+> create database frndata;
+> exit;
+
+```
+
+Migrate:
+```
+php artisan migrate
+```
+
+
+
+
+
