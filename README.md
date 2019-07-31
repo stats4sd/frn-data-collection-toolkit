@@ -46,8 +46,8 @@ Create the database:
 ```
 mysql -u ##your_local_mysql_username## -p 
 (enter your password)
-> create database frndata;
-> exit;
+create database frndata;
+exit;
 
 ```
 
