@@ -5,9 +5,10 @@
  ------------------------------------
  ====================================*/
 
-$color: #eb2b63;
-$color2: #25ae88;
-$color3: #7fabda;
+$color: #f46036;
+$color2: #12756b;
+$color3: #5ba2ca;
+$color4: #011627;
 /*----------------------------------------*/
 
 /* Template default CSS
@@ -320,7 +321,7 @@ ol {
 }
 
 .accordion-area .panel-link.active {
-    background: $color;
+    background: $color2;
 }
 
 .accordion-area .panel-link,
@@ -338,7 +339,7 @@ ol {
     border: none;
     min-height: 70px;
     border-radius: 13px;
-    @extend .bg-gradient;
+//    @extend .bg-gradient;
 }
 
 .accordion-area .panel-body {
@@ -675,7 +676,7 @@ ol {
         display: inline-flex;
         width: 87px;
         height: 87px;
-        background: $color;
+        background: $color4;
         font-size: 43px;
         color: #fff;
         -webkit-box-align: center;

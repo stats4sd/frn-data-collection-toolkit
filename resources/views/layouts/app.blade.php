@@ -8,6 +8,8 @@
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="shortcut icon"/>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -27,7 +29,7 @@
 
     <!-- Header section -->
     <header class="header-section">
-        <a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>
+        <!--<a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>-->
         <div class="nav-switch">
             <i class="fa fa-bars"></i>
         </div>
