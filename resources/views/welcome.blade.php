@@ -14,13 +14,13 @@
                         <div class="col-xl-1 px-0 ml-3 ml-xl-5">
 </div>
                         <div class="col-xl-3 col-lg-4 px-0 mx-0 order-2 order-lg-1">
-                            <button type="button" class="btn btn-lg">About</button>
+                            <a href="{{ url('about') }}" class="btn btn-lg">About</a>
                         </div>
                         <div class="col-xl-3 col-lg-4 px-0 mx-0 order-1 order-lg-2">
-                            <button type="button" class="btn btn-primary btn-lg">Tools</button>
+                            <a href="{{ url('tools') }}" class="btn btn-primary btn-lg">Tools</a>
                         </div>
                         <div class="col-xl-3 col-lg-4 px-0 mx-0 order-3 order-lg-3">
-                            <button type="button" class="btn btn-lg">Contribute</button>
+                            <a href="{{ url('collaborate') }}" class="btn btn-lg">Contribute</a>
                         </div>
                     </div>      
                 </div>

@@ -404,7 +404,11 @@ margin-bottom: 1.5rem;
         color: $color2;
         font-size: 1.3rem;
         font-weight: 700;
+
 }
+th[scope=col] {
+    border-top: none;
+    }
     td,td a {
         font-size: 0.9rem;
         font-weight: 400;

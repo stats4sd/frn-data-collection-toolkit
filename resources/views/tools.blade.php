@@ -328,12 +328,16 @@
             <div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#toolsform">
                 <div class="panel-body">
                     <div class="row">
-                        <div class="col-11 ml-md-5 pl-4 pl-md-4 mb-5">
+                        <div class="col-11 ml-md-5 pl-4 pl-md-4 mb-2">
                             <h4>Add question modules</h4>
-                            <p class="mb-5 pb-2">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam
+                            <p class="mb-4 pb-2">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam
                                 pretium turpis eget nibh laoreet iaculis.Nullam lacinia ex eleifend orciporttitor,
                                 suscip-it interdum augue condimentum. Etiam pretium turpis eget eleifend orci
                                 porttitornibh laoreet iaculis.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-11 ml-md-5 pl-4 pl-md-4 mb-5 pt-3 pb-5 px-4" style="background-color: #fff;">
                             <div class="table-responsive">
                                 <table class="table table-hover">
                                     <thead>
@@ -357,37 +361,37 @@
                                         <tr>
                                         <td> <input type="checkbox"> </td>
                                         <th scope="row" class="rh"><a href="#">Suscipit interdum augue condimentum</a></td>
-                                        <td><a href="#">Sentiments two occasional affronting solicitude travelling and one contrasted.</a></td>
-                                        <td><a href="#">Apartments simplicity or understood do it we. Song such eyes had and off. Removed winding ask explain delight out few behaved lasting.</a></td>
-                                        <td>4</td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Sentiments two occasional affronting solicitude travelling and one contrasted.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Apartments simplicity or understood do it we. Song such eyes had and off. Removed winding ask explain delight out few behaved lasting.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">4</a></td>
                                         </tr>
                                         <tr>
                                         <td> <input type="checkbox"> </td>
-                                        <th scope="row" class="rh"><a href="#">Nullam lacinia ex eleifend</a></td>
-                                        <td><a href="#">Happiness remainder joy but earnestly for off.</a></td>
-                                        <td><a href="#">Remark easily garret nor nay. Civil those mrs enjoy</a></td>
-                                        <td><a href="#">6</a></td>
+                                        <th scope="row" class="rh"><a href="#" data-toggle="modal" data-target="#m_m1">Nullam lacinia ex eleifend</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Happiness remainder joy but earnestly for off.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Remark easily garret nor nay. Civil those mrs enjoy</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">6</a></td>
                                         </tr>
                                         <tr>
                                         <td> <input type="checkbox"> </td>
-                                        <th scope="row" class="rh"><a href="#">Nullam lacinia ex eleifend</a></td>
-                                        <td><a href="#">Fortune day out married parties.</a></td>
-                                        <td><a href="#">Nullam lacinia ex eleifend orciporttitor, suscip-it interdum augue condimentum. Etiam pretium turpis</a></td>
-                                        <td><a href="#">12</a></td>
+                                        <th scope="row" class="rh"><a href="#" data-toggle="modal" data-target="#m_m1">Nullam lacinia ex eleifend</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Fortune day out married parties.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Nullam lacinia ex eleifend orciporttitor, suscip-it interdum augue condimentum. Etiam pretium turpis</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">12</a></td>
                                         </tr>
                                         <tr>
                                         <td> <input type="checkbox"> </td>
-                                        <th scope="row" class="rh"><a href="#">Suscipit interdum augue condimentum</a></td>
-                                        <td><a href="#">Sentiments two occasional affronting solicitude travelling and one contrasted.</a></td>
-                                        <td><a href="#">Apartments simplicity or understood do it we. Song such eyes had and off. Removed winding ask explain delight out few behaved lasting.</a></td>
-                                        <td><a href="#">4</a></td>
+                                        <th scope="row" class="rh"><a href="#" data-toggle="modal" data-target="#m_m1">Suscipit interdum augue condimentum</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Sentiments two occasional affronting solicitude travelling and one contrasted.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Apartments simplicity or understood do it we. Song such eyes had and off. Removed winding ask explain delight out few behaved lasting.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">4</a></td>
                                         </tr>
                                         <tr>
                                         <td> <input type="checkbox"> </td>
-                                        <th scope="row" class="rh"><a href="#">Nullam lacinia ex eleifend</a></td>
-                                        <td><a href="#">Happiness remainder joy but earnestly for off.</a></td>
-                                        <td><a href="#">Remark easily garret nor nay. Civil those mrs enjoy</a></td>
-                                        <td><a href="#">6</a></td>
+                                        <th scope="row" class="rh"><a href="#" data-toggle="modal" data-target="#m_m1">Nullam lacinia ex eleifend</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Happiness remainder joy but earnestly for off.</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">Remark easily garret nor nay. Civil those mrs enjoy</a></td>
+                                        <td><a href="#" data-toggle="modal" data-target="#m_m1">6</a></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -451,7 +455,7 @@
       </div>
       <div class="modal-footer border-top-0">
         <button type="button" class="site-btn site-btn-sec" data-dismiss="modal">Close</button>
-        <button type="button" class="site-btn">Add selected questions</button>
+        <button type="button" class="site-btn" data-dismiss="modal">Add selected questions</button>
       </div>
     </div>
   </div>
