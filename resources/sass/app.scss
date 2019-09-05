@@ -50,6 +50,14 @@ p {
     width: 100%;
 }
 
+a.blacklink {
+    color: #48515a;
+}
+a.blacklink:hover {
+    color: #000000 !important;
+}
+
+
 @media only screen and (min-width: 480px) and (max-width: 991px) {
     .hero-content h2 {
         font-size: 70px !important;
@@ -404,12 +412,22 @@ margin-bottom: 1.5rem;
 
 .tl-heading {
         margin-top: 0.6rem;
-        color: $color2 !important;
+        color: $color2;
         font-size: 1.3rem;
         font-weight: 700;
         padding: 1.6rem;
         text-align: center;
+        margin-top: 0px;
     }
+
+.tl-subh {
+    font-weight: 600;
+    color: #1c1c1c;
+    text-align: left;
+    background-color: #fff;
+    padding-left: 2.5rem;
+}    
+
 .tl-item {
             margin-top: 0rem !important;
             margin-bottom: 0rem;
@@ -420,6 +438,7 @@ margin-bottom: 1.5rem;
             padding-left: 4rem;
             padding-right: 2.4rem;
             text-align: left;
+            position: relative;
         }
 
 .tl-item:hover {
@@ -552,9 +571,7 @@ td:first-child {
     display:block;
   }
 
-button.tl-heading {
-    background-color: transparent !important;
-}
+
 .accordion-heading {
     margin-top: 0.7rem;
     margin-bottom: 0px;
@@ -562,4 +579,85 @@ button.tl-heading {
 .accordion-group {
     border-radius: 10px;
     background-color: #fff;
+}
+
+.faend,.famid {
+    float: right;
+    position: absolute; 
+    bottom: 40%; 
+    right: 1.42rem; 
+    z-index: 0;
+    font-size: 1.1rem;
+    color: #80868c;
+}
+.famid {
+    right: 3.5rem; 
+}
+.faend:hover,.famid:hover {
+   
+        color: #000000 !important;
+    
+}
+//**************
+//QG Formatting
+//**************
+div[id^="qg-"] {
+
+
+button {
+    padding-left: 1rem;
+}
+button:active,button:focus {
+    outline: none !important;
+box-shadow: none;
+
+}
+.collapse {
+    margin-left: 1rem; 
+    border-left: 3px solid rgb(126, 170, 166);
+}
+    .tl-item {
+    padding-right: 6rem;
+    }
+
+.tl-subh {
+  //  border-top: solid 1px #e7ebec;
+
+}
+div:first-child .tl-subh {
+    border-top: none;
+}
+    .famid,.faend {
+    font-size: 1rem;
+}
+.faend {
+    right: 1.3rem;
+}
+.famid {
+    right: 3.3rem;
+}
+}
+.close {
+    margin: auto -1rem auto auto;
+}
+
+.modal-header {
+    background-color: #12756b; 
+    h3,button {
+    color: #ffffff !important;
+    }
+    h3 {
+    margin: 0px auto 0px auto;
+    padding-left: 2rem;
+    }
+}
+.qg { 
+    h4{
+        text-align: center; 
+        background-color: #12756b; 
+        color: #ffffff; 
+        border-radius:10px;
+        padding: 1.5rem;
+        margin-bottom: 0px;
+    }
 }
