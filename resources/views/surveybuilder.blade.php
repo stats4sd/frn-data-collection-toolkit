@@ -90,7 +90,7 @@
                                                 <p class="mt-3">Select options below to begin. </p>
                                             </div>
                                         </div>
-                                        <div class="row py-4 img-block mx-4">
+                                        <!-- <div class="row py-4 img-block mx-4">
 
                                             <div class="col-xl-3 col-lg-4 col-md-6">
                                                 <button class="ib1 button1" style="width: 100%" type="button">
@@ -134,7 +134,77 @@
                                                     <span>Choice 8</span>
                                                 </button>
                                             </div>
+                                        </div> -->
+
+                                        <!-- <div id="checkboxes">
+
+    <input type="checkbox" name="rGroup" value="2" id="r2" />
+    <label class="checkdiv" for="r2"></label>
+    <input type="checkbox" name="rGroup" value="3" id="r3" />
+    <label class="checkdiv" for="r3"></label>
+</div> -->
+
+
+
+                                        <div class="row py-4 img-block mx-4" id="checkboxes">
+
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                <input type="checkbox" name="rGroup" value="1" id="r1"/>
+                                                <label class="checkdiv" for="r1"><div class="ibalt1"></div><div>Farmer Typologies</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r2"/>
+                                                <label class="checkdiv" for="r2"><div class="ibalt2"></div><div>Soils</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r3"/>
+                                                <label class="checkdiv" for="r3"><div class="ibalt3"></div><div>Labour</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r4"/>
+                                                <label class="checkdiv" for="r4"><div class="ibalt4"></div><div>Markets</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r5"/>
+                                                <label class="checkdiv" for="r5"><div class="ibalt5"></div><div>Poverty Dynamics</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r6"/>
+                                                <label class="checkdiv" for="r6"><div class="ibalt6"></div><div>Gender</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r7"/>
+                                                <label class="checkdiv" for="r7"><div class="ibalt7"></div><div>Food</div></label>
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4">
+                                                    <input type="checkbox" name="rGroup" value="1" id="r8"/>
+                                                <label class="checkdiv" for="r8"><div class="ibalt8"></div><div>On-Farm</div></label>                                                    
+                                                </div>
+                                                <!-- spacers formatting experiment-->
+                                                <div class="col-xl-2 col-lg-3 col-md-4" style="height: 1px;">
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4" style="height: 1px;">
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4" style="height: 1px;">
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4" style="height: 1px;">
+                                                </div>
+                                                <div class="col-xl-2 col-lg-3 col-md-4" style="height: 1px;">
+                                                </div>
+                                                
                                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
                                         <div style="text-align: center;">
                                             <button class="site-btn my-4" data-toggle="collapse" href="#collapse2"
                                                 aria-expanded="true" aria-controls="collapse2">
@@ -166,7 +236,7 @@
                                                     porttitornibh laoreet iaculis.</p>
 
 
-                                                <div class="mt-3 w-100">
+                                                <div class="mt-3 w-100" id="indicatorlist">
 
 
                                                     <div class="tl-heading">
@@ -193,43 +263,48 @@
                                                         </div>
                                                         <div id="landuse" class="collapse" aria-labelledby="landuse">
 
-                                                            <button class="btn tool-list tl-item"
-                                                                style="position: relative">
+                                                        <input type="checkbox" name="indicators" value="9" id="r9" />
+                                                        <label class="btn tool-list tl-item" for="r9">
+
                                                                 Land area cultivated
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+</label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="10" id="r10" />
+                                                        <label class="btn tool-list tl-item" for="r10">
                                                                 Land area owned
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="11" id="r11" />
+                                                        <label class="btn tool-list tl-item" for="r11">
                                                                 If labour hired on farm
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="12" id="r12" />
+                                                        <label class="btn tool-list tl-item" for="r12">
                                                                 Land slope perception
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="13" id="r13" />
+                                                        <label class="btn tool-list tl-item" for="r13">
                                                                 Tree use
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
                                                         </div>
 
 
@@ -250,70 +325,79 @@
                                                         </div>
                                                         <div id="crop" class="collapse" aria-labelledby="crop">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="14" id="r14" />
+                                                        <label class="btn tool-list tl-item" for="r14">
                                                                 All field crops, vegetables and fruits grown in last
                                                                 year
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="15" id="r15" />
+                                                        <label class="btn tool-list tl-item" for="r15">
                                                                 For most important crops: crop area, crop yield
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="16" id="r16" />
+                                                        <label class="btn tool-list tl-item" for="r16">
                                                                 Farmer’s perception of harvest
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="17" id="r17" />
+                                                        <label class="btn tool-list tl-item" for="r17">
                                                                 Proportion of crop consumed and sold
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="18" id="r18" />
+                                                        <label class="btn tool-list tl-item" for="r18">
                                                                 Crop Sale prices
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="19" id="r19" />
+                                                        <label class="btn tool-list tl-item" for="r19">
                                                                 Use of crop residues
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="20" id="r20" />
+                                                        <label class="btn tool-list tl-item" for="r20">
                                                                 Crop Income
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="21" id="r21" />
+                                                        <label class="btn tool-list tl-item" for="r21">
                                                                 Crops: Total Value of Activities
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="22" id="r22" />
+                                                        <label class="btn tool-list tl-item" for="r22">
                                                                 Crops: Food Availability
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
                                                         </div>
 
                                                         <div class="panel-header" id="h-agriculture">
@@ -334,43 +418,48 @@
                                                         <div id="agriculture" class="collapse"
                                                             aria-labelledby="agriculture">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="23" id="r23" />
+                                                        <label class="btn tool-list tl-item" for="r23">
                                                                 Total amount and types of nitrogenous fertiliser used,
                                                                 and on which crops
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="24" id="r24" />
+                                                        <label class="btn tool-list tl-item" for="r24">
                                                                 Use of manure, compost, pesticides, improved seed - per
                                                                 crop only, not total amount
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="25" id="r25" />
+                                                        <label class="btn tool-list tl-item" for="r25">
                                                                 Soil tillage practices
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="26" id="r26" />
+                                                        <label class="btn tool-list tl-item" for="r26">
                                                                 Irrigation crops, method, and months
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                        </label>
+                                                        <input type="checkbox" name="indicators" value="27" id="r27" />
+                                                        <label class="btn tool-list tl-item" for="r27">
                                                                 Crop storage method
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
                                                         </div>
 
                                                         <div class="panel-header" id="h-livestock">
@@ -391,69 +480,77 @@
                                                         <div id="livestock" class="collapse"
                                                             aria-labelledby="livestock">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="28" id="r28" />
+                                                        <label class="btn tool-list tl-item" for="r28">
                                                                 Heads of livestock species
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="29" id="r29" />
+                                                        <label class="btn tool-list tl-item" for="r29">
                                                                 Livestock: If improved/local breeds
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="30" id="r30" />
+                                                        <label class="btn tool-list tl-item" for="r30">
                                                                 Livestock: Number sold and sale price
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="31" id="r31" />
+                                                        <label class="btn tool-list tl-item" for="r31">
                                                                 Livestock: Use of meat, milk, eggs
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="32" id="r32" />
+                                                        <label class="btn tool-list tl-item" for="r32">
                                                                 Livestock: Use of medicinal inputs
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="33" id="r33" />
+                                                        <label class="btn tool-list tl-item" for="r33">
                                                                 Livestock: Income
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="34" id="r34" />
+                                                        <label class="btn tool-list tl-item" for="r34">
                                                                 Livestock: Total Value of Activities
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="35" id="r35" />
+                                                        <label class="btn tool-list tl-item" for="r35">
                                                                 Livestock: Food availability
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                        </label>
 
                                                         </div>
                                                     </div>
@@ -481,28 +578,31 @@
                                                         <div id="wildfoods" class="collapse"
                                                             aria-labelledby="wildfoods">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="36" id="r36" />
+                                                        <label class="btn tool-list tl-item" for="r36">
 
                                                                 Which months wildfoods collected
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="37" id="r37" />
+                                                        <label class="btn tool-list tl-item" for="r37">
                                                                 Wildfood: Which foodstuffs
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="38" id="r38" />
+                                                        <label class="btn tool-list tl-item" for="r38">
                                                                 Wildfood: Proportion consumed or sold
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
                                                         </div>
                                                         <div class="panel-header" id="h-security">
                                                             <button class="btn tool-list tl-heading tl-subh my-0"
@@ -521,34 +621,38 @@
                                                         </div>
                                                         <div id="security" class="collapse" aria-labelledby="security">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="39" id="r39" />
+                                                        <label class="btn tool-list tl-item" for="r39">
                                                                 Months of lean season
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="40" id="r40" />
+                                                        <label class="btn tool-list tl-item" for="r40">
 
                                                                 Worst month, best month
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="41" id="r41" />
+                                                        <label class="btn tool-list tl-item" for="r41">
                                                                 Household Food Insecurity Access Scale (HFIAS)
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="42" id="r42" />
+                                                        <label class="btn tool-list tl-item" for="r42">
 
                                                                 Food Insecurity Experience Scale (FIES)
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
 
 
@@ -571,27 +675,30 @@
                                                         </div>
                                                         <div id="hdd" class="collapse" aria-labelledby="hdd">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="43" id="r43" />
+                                                        <label class="btn tool-list tl-item" for="r43">
                                                                 Household Dietary Diversity Score (HDDS)
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="44" id="r44" />
+                                                        <label class="btn tool-list tl-item" for="r44">
                                                                 Optional Individual 24 hour dietary diversity score
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
-                                                            <button class="btn tool-list tl-item">
+                                                            </label>
+                                                        <input type="checkbox" name="indicators" value="45" id="r45" />
+                                                        <label class="btn tool-list tl-item" for="r45">
                                                                 Source of food groups during lean and good seasons
 
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
 
                                                         </div>
@@ -622,12 +729,13 @@
                                                         </div>
                                                         <div id="pov" class="collapse" aria-labelledby="pov">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="46" id="r46" />
+                                                        <label class="btn tool-list tl-item" for="r46">
                                                                 Probability of Poverty Indicator (PPI)
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
                                                         </div>
 
 
@@ -644,30 +752,33 @@
                                                                         +
                                                                     </div>
                                                                 </div>
-                                                            </button>
+                                                            </label>
                                                         </div>
                                                         <div id="offfarm" class="collapse" aria-labelledby="offfarm">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="47" id="r47" />
+                                                        <label class="btn tool-list tl-item" for="r47">
                                                                 Incomes
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="48" id="r48" />
+                                                        <label class="btn tool-list tl-item" for="r48">
                                                                 Total Value of Activities
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="49" id="r49" />
+                                                        <label class="btn tool-list tl-item" for="r49">
                                                                 Food Availability
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
                                                         </div>
 
@@ -688,19 +799,21 @@
                                                         </div>
                                                         <div id="aid" class="collapse" aria-labelledby="aid">
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="50" id="r50" />
+                                                        <label class="btn tool-list tl-item" for="r50">
                                                                 Aid received
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
-                                                            <button class="btn tool-list tl-item">
+                                                        <input type="checkbox" name="indicators" value="51" id="r51" />
+                                                        <label class="btn tool-list tl-item" for="r51">
                                                                 Gifts received
                                                                 <a href="#" class="blacklink">
                                                                     <i class="fa fa-info-circle faend"></i>
                                                                 </a>
-                                                            </button>
+                                                            </label>
 
 
                                                         </div>
@@ -727,13 +840,14 @@
                                                     </div>
                                                     <div id="gender" class="collapse" aria-labelledby="gender">
 
-                                                        <button class="btn tool-list tl-item">
+                                                    <input type="checkbox" name="indicators" value="52" id="r52" />
+                                                        <label class="btn tool-list tl-item" for="r52">
                                                             Gendered and youth decision making over incomes and farm
                                                             production
                                                             <a href="#" class="blacklink">
                                                                 <i class="fa fa-info-circle faend"></i>
                                                             </a>
-                                                        </button>
+                                                            </label>
 
 
                                                     </div>
@@ -788,7 +902,7 @@
 
 
                                             <div class="row justify-content-center qg">
-                                                <div class="col-lg-5 mx-4 mx-lg-0 px-4 py-4" style="background-color: #fff;">
+                                                <div class="col-lg-5 mx-4 mx-lg-0 px-3 py-3" style="background-color: #fff;">
                                                     <h4> Available Question
                                                         Groups:</h4>
                                                     <div style="height: 65vh; overflow-y: scroll;">
@@ -965,7 +1079,7 @@
 
 
 
-                                                <div class="col-lg-5 mt-lg-0 mx-4 mr-lg-0 ml-lg-5  px-4 py-4"
+                                                <div class="col-lg-5 mt-lg-0 mx-4 mr-lg-0 ml-lg-5  px-3 py-3"
                                                     style="background-color: #fff;">
 
                                                     <h4 style="text-align: center"> Selected Question
@@ -1046,8 +1160,8 @@
                                                             </div>
                                                             <div class="modal-body">
                                                                 <div class="container">
-                                                                    <h4>Probability of Poverty Indicator (PPI) - Bolivia
-                                                                    </h4>
+                                                                    <h5>Probability of Poverty Indicator (PPI) - Bolivia
+                                                                    </h5>
                                                                     <p>This question module contains the following
                                                                         questions:</p>
 
@@ -1120,9 +1234,9 @@
                                                         role="document" style="width: 65%;">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h5 class="modal-title" id="exampleModalLongTitle">Add
+                                                                <h3 class="modal-title" id="exampleModalLongTitle">Add
                                                                     Question Group:
-                                                                </h5>
+                                                                </h3>
                                                                 <button type="button" class="close" data-dismiss="modal"
                                                                     aria-label="Close">
                                                                     <span aria-hidden="true">&times;</span>
@@ -1130,8 +1244,8 @@
                                                             </div>
                                                             <div class="modal-body">
                                                                 <div class="container">
-                                                                    <h4>Food Insecurity Experience Scale (FIES) - Israel
-                                                                    </h4>
+                                                                    <h5>Food Insecurity Experience Scale (FIES) - Israel
+                                                                    </h5>
                                                                     <p>This question module contains the following
                                                                         questions:</p>
 
@@ -1196,9 +1310,9 @@
                                                         role="document" style="width: 65%;">
                                                         <div class="modal-content">
                                                             <div class="modal-header">
-                                                                <h5 class="modal-title" id="exampleModalLongTitle">Add
+                                                                <h3 class="modal-title" id="exampleModalLongTitle">Add
                                                                     Question Group:
-                                                                </h5>
+                                                                </h3>
                                                                 <button type="button" class="close" data-dismiss="modal"
                                                                     aria-label="Close">
                                                                     <span aria-hidden="true">&times;</span>
@@ -1206,8 +1320,8 @@
                                                             </div>
                                                             <div class="modal-body">
                                                                 <div class="container">
-                                                                    <h4>Household Food Insecurity Access Scale (HFIAS)
-                                                                    </h4>
+                                                                    <h5>Household Food Insecurity Access Scale (HFIAS)
+                                                                    </h5>
                                                                     <p>This question module contains the following
                                                                         questions:</p>
 
