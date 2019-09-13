@@ -74,7 +74,7 @@
                         </div>
                         <div class="carousel-caption d-none d-md-block">
                             <h3>Featured Resource 3</h3>
-                            <p>Resource caption text woaaah</p>
+                            <p>Resource caption text</p>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,56 @@
 <div class="container px-4">
 
     <div class="row pt-5">
-        <h3 class="mb-5">Browse Categories</h3>
-        <p style="display: block; width: 100%;">Click on the desired category below to find selected resources and tools for particular topics. </p>
+        <h3 class="mb-5">Browse Resources</h3>
+        <p>See resources we have relating to various areas of FRN work. You can browse by FRN process, category, or scroll to the bottom of the page to search through the whole database.</p>
+        <h4>FRN Processes</h4>
+                    <!-- 1. Engage
+
+                a. Build network
+                b. Engage farmers
+
+            2. Prioritize
+
+                a. Diagnosis
+                b. Seek options
+
+            3. Design
+
+                a. Planning
+                b. Design studies 
+                c. Strengthen capacities 
+                d. Learning out (training) 
+
+            4. Collect and handle 
+                
+                a. Collect data 
+                b. Test options 
+                c. Manage data 
+
+            5. Observe 
+
+                a. Thinking / Reflecting / Growing 
+
+            6. Analyze 
+
+                a. Analyze data 
+
+            7. Communicate 
+
+                a. Share insights 
+                b. Communicate (out and between) 
+
+            8. Implement changes 
+
+                a. Seek change in practice 
+                b. Contextualized scaling 
+                c. Market engagement 
+                d. Learn / inspire others 
+
+            9. M&E, assess impact -->
+
+
+            <h4>Browse Categories</h4>
 </div>
 
 <div class="row pb-4 img-block" style="justify-content: left !important;">
