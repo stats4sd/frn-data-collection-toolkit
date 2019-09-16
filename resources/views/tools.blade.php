@@ -36,7 +36,7 @@
 <div class="container my-4 d-flex">
     <div class="row">
         <div class="col-md mt-4">
-            <h3 class="mb-5">Featured Tools and Collections</h3>
+            <h2 class="mb-5">Featured Tools and Collections</h2>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -47,12 +47,12 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container img-gradient">
-                            <a class="stretched-link" href="{{ url('surveybuilder') }}">
+                            <a class="stretched-link" href="{{ url('sbintro') }}">
                                 <img class="d-block w-100" src="/img/surveybuild.png" alt="First slide">
                             </a>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <a class="stretched-link" href="{{ url('surveybuilder') }}"><h3>Survey Builder</h3>
+                            <a class="stretched-link" href="{{ url('sbintro') }}"><h3>Survey Builder</h3>
                                 <p>Select from standardised indicators and question modules to generate an ODK form for your data collection.</p>
                             </a>
                         </div>
@@ -93,56 +93,95 @@
 <div class="container px-4">
 
     <div class="row pt-5">
-        <h3 class="mb-5">Browse Resources</h3>
+        <h2 class="mb-5">Browse Resources</h2>
         <p>See resources we have relating to various areas of FRN work. You can browse by FRN process, category, or scroll to the bottom of the page to search through the whole database.</p>
-        <h4>FRN Processes</h4>
-                    <!-- 1. Engage
+        <h3 class="mt-4">FRN Processes</h3>
+        <p>Browse resources relating to the different stages of FRN research.</p>
+</div>
+<div class="row pt-4 frnproc mb-5 justify-content-center" style="margin-left: calc( -15px - 0.4rem );">
 
-                a. Build network
-                b. Engage farmers
-
-            2. Prioritize
-
-                a. Diagnosis
-                b. Seek options
-
-            3. Design
-
-                a. Planning
-                b. Design studies 
-                c. Strengthen capacities 
-                d. Learning out (training) 
-
-            4. Collect and handle 
+        <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
                 
-                a. Collect data 
-                b. Test options 
-                c. Manage data 
+                <img src="/img/frn1.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Engage</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn2.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Prioritize</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn3.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Design</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn4.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Collect and Handle</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn5.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Observe</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn6.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Analyse</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn7.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Communicate</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn8.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Implement changes</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frn9.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">Assess Impact</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6">
+            <button class="checkdiv frnmore" style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
+                
+                <img src="/img/frnmore.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                <span style="float: bottom; width: 100%; text-align: center">See All</span>
+            </button>    
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6" style="height: 1px; min-height:1px;">
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6" style="height: 1px; min-height:1px;">
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6" style="height: 1px; min-height:1px;">
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-6" style="height: 1px; min-height:1px;">
+    </div>
+</div>
 
-            5. Observe 
-
-                a. Thinking / Reflecting / Growing 
-
-            6. Analyze 
-
-                a. Analyze data 
-
-            7. Communicate 
-
-                a. Share insights 
-                b. Communicate (out and between) 
-
-            8. Implement changes 
-
-                a. Seek change in practice 
-                b. Contextualized scaling 
-                c. Market engagement 
-                d. Learn / inspire others 
-
-            9. M&E, assess impact -->
-
-
-            <h4>Browse Categories</h4>
+<div class="row pt-4 mb-3">
+            <h3>Browse Categories</h3>
 </div>
 
 <div class="row pb-4 img-block" style="justify-content: left !important;">
@@ -188,26 +227,6 @@
                 <div class="col-xl-3 col-lg-4 col-md-6">
                     <button class="ib8 button2" style="width: 100%" type="button">
                         <span>PPI</span>
-                    </button>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <button class="ib1 button2" style="width: 100%" type="button">
-                        <span>FRN Process Step 1</span>
-                    </button>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <button class="ib2 button2" style="width: 100%" type="button">
-                        <span>FRN Process Step 2</span>
-                    </button>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <button class="ib3 button2" style="width: 100%" type="button">
-                        <span>FRN Process Step 3</span>
-                    </button>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <button class="ib4 button2" style="width: 100%" type="button">
-                        <span>FRN Process Step 4</span>
                     </button>
                 </div>
             </div>

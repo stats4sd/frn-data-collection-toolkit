@@ -828,3 +828,27 @@ background-color: $color2;
 background-position: center;
 background-size: contain;
 }
+
+.frnproc div {
+   margin: 0.4rem; 
+   padding: 0rem;
+   min-width: 12rem;
+   min-height: 16rem;
+}
+.frnproc span {
+    font-size: 0.8em;
+    line-height: 80%;
+} 
+
+.frnproc .checkdiv:hover {
+background-color: #091c2b;
+text-decoration: underline;
+}
+
+.frnmore {
+    background-color: #69757f;
+}
+
+.frnmore:hover {
+    background-color: #545e66 !important;
+}
