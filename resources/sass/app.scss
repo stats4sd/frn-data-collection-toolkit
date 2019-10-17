@@ -160,6 +160,10 @@ a.blacklink:hover {
     }
     
 }
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
 .splash {
     p,h1,h2,h3,h4,h5 {
     color: #fff;
@@ -649,6 +653,7 @@ button:active,button:focus {
 box-shadow: none;
 
 }
+
 .collapse {
     margin-left: 1rem; 
     border-left: 3px solid rgb(126, 170, 166);

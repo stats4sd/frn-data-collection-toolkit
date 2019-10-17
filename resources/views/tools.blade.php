@@ -21,10 +21,9 @@
     <div class="row px-3 px-md-0">
         <div class="col-md-10 offset-md-1 px-md-5">
 
-            <p>Intro text goes here. Below you can explore our curated collection of resources for use with FRNs. Browse
+            <p>Below you can explore our curated collection of resources for use with FRNs. Browse
                 the categories to find useful tools or scroll down to search the database.</p>
-            <p>This is another paragraph of intro text. It might contain further information about how these tools have
-                been collected and how to use them.</p>
+            <p>The collection is selected by and for the CCRP network. If you have a tool or resource you want to share, please <a href="#">contact us</a>.</p>
 
 
 
@@ -48,7 +47,7 @@
                     <div class="carousel-item active">
                         <div class="container img-gradient">
                             <a class="stretched-link" href="{{ url('sbintro') }}">
-                                <img class="d-block w-100" src="/img/surveybuild.png" alt="First slide">
+                                <img class="d-block w-100" src="/img/surveybuild.jpg" alt="First slide">
                             </a>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
@@ -116,9 +115,9 @@
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+                <a href="{{ url('results') }}">
                 <img src="/img/frn3.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Design</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Design</span></a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
@@ -234,6 +233,7 @@
 
     <div class="row pt-5">
         <h3 class="mb-5">View all Tools</h3>
+        <img src="/img/resources_ss.png" style="width: 100%">
 </div>
 
 </div>

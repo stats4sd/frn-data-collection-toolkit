@@ -226,14 +226,8 @@
                                         <div class="row">
                                             <div class="col-11 ml-3 ml-md-5 pl-md-4 mb-5 pr-1">
                                                 <h4>Select indicators</h4>
-                                                <p class="mb-4">Nullam lacinia ex eleifend orci porttitor, suscipit
-                                                    interdum augue
-                                                    condimentum. Etiam
-                                                    pretium turpis eget nibh laoreet iaculis.Nullam lacinia ex eleifend
-                                                    orciporttitor,
-                                                    suscip-it interdum augue condimentum. Etiam pretium turpis eget
-                                                    eleifend orci
-                                                    porttitornibh laoreet iaculis.</p>
+                                                <p class="mb-4">Below are the indicators relating to the categories you chose in Step 1. Click to expand the subcategories, and select the indicators you want to measure in your survey.</p>
+                                                <p>Remember that each indicator you measure in your survey will increase the time and resources required for data collection and analysis.</p>
 
 
                                                 <div class="mt-3 w-100" id="indicatorlist">
@@ -930,14 +924,7 @@
                                     <div class="row">
                                         <div class="col-11 ml-md-5 pl-4 pl-md-4 mb-2">
                                             <h4>Add Question Groups</h4>
-                                            <p class="mb-4 pb-2">Nullam lacinia ex eleifend orci porttitor, suscipit
-                                                interdum augue
-                                                condimentum. Etiam
-                                                pretium turpis eget nibh laoreet iaculis.Nullam lacinia ex eleifend
-                                                orciporttitor,
-                                                suscip-it interdum augue condimentum. Etiam pretium turpis eget
-                                                eleifend orci
-                                                porttitornibh laoreet iaculis.</p>
+                                            <p class="mb-4 pb-2">For each indicator you selected in Step 2, you may now choose the question block you want to include in your survey. Expand indicators to view the question blocks, then click the arrow or drag a question block over to add it to your selected questions, or click on the symbol for more information.</p>
                                         </div>
                                     </div>
                                     <div class="row">

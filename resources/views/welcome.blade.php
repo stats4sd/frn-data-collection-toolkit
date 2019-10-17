@@ -7,9 +7,9 @@
     <div class="container h-100">
         <div class="hero-content text-white">
             <div class="d-flex justify-content-center">
-                <div class="col-lg-12 pr-0 pt-5 mt-5 text-center">
-                    <h2>Farmer Research Networks</h2>
-                    <h4 class="mt-4 pt-2 mb-3 mb-lg-5 pb-3 pb-lg-5">Data Collection Tools</h4>
+                <div class="col-lg-12 pr-0 pt-5 mt-5 text-center" style="width: 90vw">
+                    <h2>FRN Toolkit</h2>
+                    <h4 class="mt-4 pt-2 mb-3 mb-lg-5 pb-3 pb-lg-5">Tools and Resources for FRN activities</h4>
                     <div class="row pb-4">
                         <div class="col-xl-1 px-0 ml-3 ml-xl-5">
 </div>

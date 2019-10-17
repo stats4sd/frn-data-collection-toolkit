@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col">
                         <h1 class="mb-5">ODK Survey Builder</h1>
-                        <h4 class=" mt-2 mb-5 pb-5">Quickly generate surveys using standardised indicators and question
+                        <h4 class=" mt-2 mb-5 pb-5">Quickly generate surveys using harmonised indicators and question
                             banks for high-quality, consistent data collection.</h4>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <h1 class="mb-4 pb-2">Step 2</h1>
                     <h4 style="vertical-align: top; padding-top: 1rem; padding-bottom: 1.3rem">Choose Indicators</h4>
                     <p>You will see a list of all the predefined indicators available for your chosen subject areas. Select the ones you want to measure in your study.</p>
-                    <p>Remember that using standardised indicators is good practice for harmonious data collection accross the CCRP network</p>
+                    <p>Remember that using harmonised indicators is good practice for consistent data collection accross the CCRP network</p>
 
                 </div>
             </div>
