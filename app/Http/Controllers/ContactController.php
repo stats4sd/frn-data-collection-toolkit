@@ -64,7 +64,7 @@ class ContactController extends Controller
 
         $contact = Contact::create($request->all());
 
-        Mail::to(config(''))->queue(
+        Mail::to(config('mail.to.address'))->queue(
             new ContactFormSubmitted($contact)
         );
 
