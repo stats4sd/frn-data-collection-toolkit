@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'mailgun'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,12 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'rms@stats4sd.org'),
+        'name' => env('MAIL_FROM_NAME', 'FRN Information Platform'),
+    ],
+
+    'to' => [
+        'address' => env('MAIL_TO_ADDRESS', 'support@stats4sd.org'),
     ],
 
     /*

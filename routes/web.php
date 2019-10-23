@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Setup RESTful API routes for contact form
+Route::resource('contact', 'ContactController', ['only' => ['index','store']]);
+
 Route::get('{page}', function($page) {
     return view($page);
 });
