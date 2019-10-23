@@ -62,6 +62,7 @@ return [
 
     'to' => [
         'address' => env('MAIL_TO_ADDRESS', 'support@stats4sd.org'),
+        'name' => env('MAIL_TO_ADDRESS', 'support@stats4sd.org'),
     ],
 
     /*
