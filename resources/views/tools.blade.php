@@ -22,8 +22,8 @@
         <div class="col-md-10 offset-md-1 px-md-5">
 
             <p>Below you can explore our curated collection of resources for use with FRNs. Browse
-                the categories to find useful tools or scroll down to search the database.</p>
-            <p>The collection is selected by and for the CCRP network. If you have a tool or resource you want to share, please <a href="#">contact us</a>.</p>
+                the categories to find useful tools or search the database.</p>
+            <p>The collection is selected by and for the CCRP network. We are seeking contributions; if you have a tool or resource you want to share, please <a href="#">contact us</a>.</p>
 
 
 
@@ -46,34 +46,37 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container img-gradient">
-                            <a class="stretched-link" href="{{ url('sbintro') }}">
-                                <img class="d-block w-100" src="/img/surveybuild.jpg" alt="First slide">
+                            <a class="stretched-link" href="https://stats4sd.org/resources/395">
+                                <img class="d-block w-100" src="/img/feature1.jpg" alt="First slide">
                             </a>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <a class="stretched-link" href="{{ url('sbintro') }}"><h3>Survey Builder</h3>
-                                <p>Select from standardised indicators and question modules to generate an ODK form for your data collection.</p>
+                            <a class="stretched-link" href="https://stats4sd.org/resources/395"><h3>Designing Participatory On-Farm Experiments</h3>
+                                <p>A collection of training materials to support the design of participatory on-farm experiments. </p>
                             </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="container img-gradient">
-                        <a class="stretched-link" href="{{ url('indicators') }}">
-                            <img class="d-block w-100" src="/img/tool2.jpg" alt="Second slide">
+                        <a class="stretched-link" href="https://stats4sd.org/resources/456">
+                            <img class="d-block w-100" src="/img/feature2.png" alt="Second slide">
                         </a>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <a class="stretched-link" href="{{ url('indicators') }}"><h3>Indicators List</h3>
-                            <p>View a list of indicators sorted by category to easily find relevant listings in our database.</p></a>
+                            <a class="stretched-link" href="https://stats4sd.org/resources/456"><h3>Global Community Action Guides</h3>
+                            <p>Guides from the International Accountability Project on conducting community-led research.</p></a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="container img-gradient">
-                            <img class="d-block w-100" src="/img/tool3.jpg" alt="Third slide">
+                        <a class="stretched-link" href="https://stats4sd.org/resources/450">
+                            <img class="d-block w-100" src="/img/feature3.jpg" alt="Third slide">
+                            </a>
                         </div>
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>Featured Resource 3</h3>
-                            <p>Resource caption text</p>
+                        <a class="stretched-link" href="https://stats4sd.org/resources/450"><h3>Using Photography in Reseach</h3>
+                                <p>Ideas about different ways photograpy can be used in the field.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -93,7 +96,7 @@
 
     <div class="row pt-5">
         <h2 class="mb-5">Browse Resources</h2>
-        <p>See resources we have relating to various areas of FRN work. You can browse by FRN process, category, or scroll to the bottom of the page to search through the whole database.</p>
+        <p>See resources we have relating to various areas of FRN work. You can browse by FRN process, category, or search through the whole database.</p>
         <h3 class="mt-4">FRN Processes</h3>
         <p>Browse resources relating to the different stages of FRN research.</p>
 </div>
@@ -101,72 +104,81 @@
 
         <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
-                <img src="/img/frn1.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Engage</span>
+                <a href="https://stats4sd.org/collections/14">
+                    <img src="/img/frn1.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
+                    <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Engage</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+            <a href="https://stats4sd.org/collections/15">   
                 <img src="/img/frn2.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Prioritize</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Prioritize</span>
+            </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                <a href="{{ url('results') }}">
+            <a href="https://stats4sd.org/collections/16">
                 <img src="/img/frn3.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Design</span></a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+            <a href="https://stats4sd.org/collections/13">
                 <img src="/img/frn4.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Collect and Handle</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Collect and Handle</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+            <a href="https://stats4sd.org/collections/17">
                 <img src="/img/frn5.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Observe</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Observe</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+                <a href="https://stats4sd.org/collections/18">
                 <img src="/img/frn6.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Analyse</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Analyse</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+                <a href="https://stats4sd.org/collections/19">
                 <img src="/img/frn7.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Communicate</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Communicate</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+                <a href="https://stats4sd.org/collections/20">
                 <img src="/img/frn8.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Implement changes</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Implement changes</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+                <a href="https://stats4sd.org/collections/21">
                 <img src="/img/frn9.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">Assess Impact</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Assess Impact</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv frnmore" style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-                
+                <a href="https://stats4sd.org/resources?refinementList[tags.name.en][0]=AEI%20for%20review&refinementList[tags.name.en][1]=FRN&refinementList[tags.name.en][2]=Farmer%20Analysis&refinementList[tags.name.en][3]=Participatory&refinementList[tags.name.en][4]=Farmer%20Participatory%20Research&refinementList[tags.name.en][5]=Pest%20Management#resources-app">
                 <img src="/img/frnmore.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
-                <span style="float: bottom; width: 100%; text-align: center">See All</span>
+                <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">See All</span>
+                </a>
             </button>    
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6" style="height: 1px; min-height:1px;">
@@ -187,53 +199,74 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
 
  
-                    <a href="{{ url('indicators') }}">        
+                    <a href="https://stats4sd.org/collections/22">        
                         <button class="ib1 button2" style="width: 100%" type="button">
-                            <span>Indicators</span>
+                            <span>Soils</span>
                         </button>
                     </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/collections/23">
                     <button class="ib2 button2" style="width: 100%" type="button">
-                        <span>Soils</span>
+                        <span>Agroecology Techniques</span>
                     </button>
+                    </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/collections/24">
                     <button class="ib3 button2" style="width: 100%" type="button">
-                        <span>Labour</span>
+                        <span>Pest Management</span>
                     </button>
+                    </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/collections/25">
                     <button class="ib4 button2" style="width: 100%" type="button">
-                        <span>Markets</span>
+                        <span>Gender</span>
                     </button>
+                    </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/collections/26">
                     <button class="ib5 button2" style="width: 100%" type="button">
-                        <span>Farmer Typologies</span>
+                        <span>Participatory Research</span>
                     </button>
+                    </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/collections/27">
                     <button class="ib6 button2" style="width: 100%" type="button">
-                        <span>Qualitative</span>
+                        <span>Evaluation</span>
                     </button>
+                    </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/collections/28">
                     <button class="ib7 button2" style="width: 100%" type="button">
-                        <span>Quantitative</span>
+                        <span>Local Knowledge</span>
                     </button>
+                    </a>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
+                <a href="https://stats4sd.org/resources?refinementList[tags.name.en][0]=AEI%20for%20review&refinementList[tags.name.en][1]=FRN&refinementList[tags.name.en][2]=Farmer%20Analysis&refinementList[tags.name.en][3]=Participatory&refinementList[tags.name.en][4]=Farmer%20Participatory%20Research&refinementList[tags.name.en][5]=Pest%20Management#resources-app">
                     <button class="ib8 button2" style="width: 100%" type="button">
-                        <span>PPI</span>
+                        <span>All Categories</span>
                     </button>
+                    </a>
                 </div>
             </div>
 
 
     <div class="row pt-5">
         <h3 class="mb-5">View all Tools</h3>
-        <img src="/img/resources_ss.png" style="width: 100%">
+        <p>Browse by tag or search for keywords in the database of FRN-related tools. This database is powered by the <a href="https://stats4sd.org/resources">Stats4SD Resources Repository</a>, which contains hundreds of resources accross a broad range of topics, including statistics, data analysis and research methods.</p>
+    </div>
+    <div class="row justify-content-center">
+        <a href ="https://stats4sd.org/resources?refinementList[tags.name.en][0]=AEI%20for%20review&refinementList[tags.name.en][1]=FRN&refinementList[tags.name.en][2]=Farmer%20Analysis&refinementList[tags.name.en][3]=Participatory&refinementList[tags.name.en][4]=Farmer%20Participatory%20Research&refinementList[tags.name.en][5]=Pest%20Management#resources-app">
+            <button class="site-btn my-4 mx-auto" style="display: inline-block!">
+                                                Browse all Tools
+                                            </button>
+                                            </a>
 </div>
 
 </div>

@@ -34,11 +34,11 @@
             <i class="fa fa-bars"></i>
         </div>
         <div class="nav-warp">
-            <div class="user-panel">
+            <!-- <div class="user-panel">
                 <a href="#">Login</a> /
                 <a href="#">Register</a>
-            </div>
-            <ul class="main-menu">
+            </div> -->
+            <ul class="main-menu" style="padding-right: 70px;">
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('about') }}">About</a></li>
                 <li><a href="{{ url('tools') }}">Tools</a></li>

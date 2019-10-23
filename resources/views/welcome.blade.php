@@ -30,21 +30,27 @@
 </section>
 <!-- Hero section end -->
 
-<div class="container d-flex">
+<div class="container">
     <div class="row px-3 px-md-0">
         <div class="col-md-10 offset-md-1">
 
-        <p>Lorem ipsum nullam tortor amet neque lacinia integer lacus, sit fringilla diam posuere volutpat quam tristique vehicula, velit in viverra aliquet augue ut quam curabitur erat sapien facilisis tincidunt consectetur.</p>
-    <p class="py-3 mb-5">Nulla augue nunc proin etiam curabitur rutrum sagittis venenatis a aenean, laoreet malesuada leo dictumst mi et egestas in etiam vehicula, ut tristique volutpat eget luctus non justo fames primis ligula ornare molestie vulputate arcu.</p>
+        <p>The FRN Toolkit aims to provide a <b>platform for knowledge-sharing</b> between projects in the CCRP network.</p>
+        <p>It contains a range of items to support FRNs, including learning materials to build capacity, tools, templates and ideas to help run activities, carry out research and more generally broaden the potential and quality of community research activities within CCRP. You can explore the collection on the <a href="{{ url('tools') }}">Tools</a> page. </p>
+        <p>It is open to submission from anyone within CCRP who has a resource they would like to share. </p>
+        <p>At present, this platform is in development, and we are seeking feedback from CCRP projects. We'd love to know if you're interested in the platform, if you have any suggestions or requests, or if you have any items you want to share. Please <a href="{{ url('contact') }}">contact us</a> if you would like to get involved. </p>
+</div>
+</div>
+<div class="row px-3 px-md-0 justify-content-center">
+            <a href="{{ url('about') }}">
+                <button class="site-btn my-4 mx-auto" style="display: inline-block!">
+                    Find out More
+                </button>
+            </a>
+            </div>
 
 
-            <h2 class="mb-3">How does it work?</h2>
-            <p>Lorem ipsum velit habitant in donec condimentum inceptos leo gravida vivamus convallis, sem fermentum hac amet aptent conubia luctus neque elementum tempus rhoncus, quam nunc cras litora augue fermentum pulvinar placerat faucibus lacus vulputate dolor justo in quam curae a quis malesuada euismod ultricies nullam lacus.</p>
-            <h3>Tempus diam</h3>
-            <p>Gravida eu porta felis amet tempor ullamcorper pellentesque dui etiam, euismod tincidunt vehicula conubia vehicula tellus proin sapien curabitur, tellus orci eleifend platea bibendum et orci tellus habitasse accumsan fusce viverra cubilia malesuada quam, mollis fames et at tristique vel posuere, lacus nibh commodo eget libero.</p>
-            <h3>Risus</h3>
-            <p>Lorem ipsum ligula eget risus at hendrerit scelerisque, ultrices cras tempor dictumst habitant dictumst, cras volutpat aliquet cursus nam primis phasellus scelerisque duis risus nec lacus condimentum magna in congue taciti platea et, litora vivamus platea luctus malesuada morbi quis nibh nostra consequat tortor lorem senectus posuere ac sociosqu.</p>
-    <p>Sit ac praesent inceptos enim ornare diam nisl, vulputate habitant nibh velit tortor curabitur per, molestie ut curabitur a luctus magna fusce netus nisi proin magna conubia eget maecenas integer etiam ipsum posuere.</p>
+
+
 
            
         </div>
