@@ -24,7 +24,7 @@
             <h2>What is the FRN Toolkit?</h2>
             <!-- <p class="mb-5">Watch the video below to find out more.</p> -->
                 <div class="embed-responsive embed-responsive-16by9 mb-5">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yeSjo3oIdqo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IRG0OZDD2yo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  </div>
                  <p>Resources are available on the <a href="{{ url('tools') }}">Tools page</a>, selected specifically with FRNs and related work in mind. We hope to expand this collection and promote sharing and collaboration across the network.</p>  
                  <p>Groups and projects could use this platform to share what they use and find helpful, and tools, survey templates, exercises and learning materials that are generated as part of activities within.</p>
