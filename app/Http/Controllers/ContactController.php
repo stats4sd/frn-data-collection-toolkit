@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Contact;
+use App\Models\Contact;
 use App\Helpers\GenericHelper;
 use App\Mail\ContactFormSubmitted;
 use Illuminate\Http\Request;

@@ -5,7 +5,7 @@
 <img src="{{ asset('img/odk-builder.jpg') }}" style="width: 100vw"/>
 -->
 
-<section class="hero-section set-bg" data-setbg="{{ asset('img/agroecology.jpg') }}" style="height:400px !important">
+<section class="hero-section set-bg" data-setbg="{{ asset('img/agroecology1.jpg') }}" style="height:400px !important">
     <div class="container h-100">
         <div class="hero-content text-white" style="align-items: flex-end">
             <div class="d-flex justify-content-center pb-5">
@@ -108,22 +108,22 @@
                     <img src="/img/frn1.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                     <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Engage</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
-            <a href="https://stats4sd.org/collections/15">   
+            <a href="https://stats4sd.org/collections/15">
                 <img src="/img/frn2.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Prioritize</span>
             </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
             <a href="https://stats4sd.org/collections/16">
                 <img src="/img/frn3.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Design</span></a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -131,7 +131,7 @@
                 <img src="/img/frn4.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Collect and Handle</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -139,7 +139,7 @@
                 <img src="/img/frn5.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Observe</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -147,7 +147,7 @@
                 <img src="/img/frn6.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Analyse</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -155,7 +155,7 @@
                 <img src="/img/frn7.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Communicate</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -163,7 +163,7 @@
                 <img src="/img/frn8.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Implement changes</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv " style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -171,7 +171,7 @@
                 <img src="/img/frn9.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">Assess Impact</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6">
             <button class="checkdiv frnmore" style="height: 100%; padding: 1rem; max-width: 90vw; text-align: center;">
@@ -179,7 +179,7 @@
                 <img src="/img/frnmore.png" style="display: block;  width: 60%; height: auto; max-width: 235px; margin: 0px auto 1rem auto; ">
                 <span style="float: bottom; width: 100%; text-align: center; color: #ffffff !important;">See All</span>
                 </a>
-            </button>    
+            </button>
     </div>
     <div class="col-lg-2 col-md-4 col-sm-6" style="height: 1px; min-height:1px;">
     </div>
@@ -198,8 +198,8 @@
 <div class="row pb-4 img-block" style="justify-content: left !important;">
             <div class="col-xl-3 col-lg-4 col-md-6">
 
- 
-                    <a href="https://stats4sd.org/collections/22">        
+
+                    <a href="https://stats4sd.org/collections/22">
                         <button class="ib1 button2" style="width: 100%" type="button">
                             <span>Soils</span>
                         </button>
@@ -275,6 +275,6 @@
 
 
 
-   
+
 
 @endsection

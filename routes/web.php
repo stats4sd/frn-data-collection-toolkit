@@ -18,6 +18,16 @@ Route::get('/', function () {
 // Setup RESTful API routes for contact form
 Route::resource('contact', 'ContactController', ['only' => ['index','store']]);
 
+
+
+Route::get('collections/{collection}', 'CollectionController@show');
+
+
+
+
+
+
+// Catch-all route for making pages without writing php
 Route::get('{page}', function($page) {
     return view($page);
 });
