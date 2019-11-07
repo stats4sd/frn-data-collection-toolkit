@@ -5,89 +5,11 @@
  ------------------------------------
  ====================================*/
 
-$color: #f46036;
-$color2: #12756b;
-$color3: #5ba2ca;
-$color4: #011627;
-$color5: #e7ebec;
+
 /*----------------------------------------*/
 
 /* Template default CSS
 /*----------------------------------------*/
-
-html,
-body {
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    color: #1c1c1c;
-    font-weight: 600;
-}
-
-h1 {
-    font-size: 70px;
-}
-
-h2 {
-    font-size: 36px;
-}
-
-h3 {
-    font-size: 30px;
-}
-
-h4 {
-    font-size: 24px;
-}
-
-h5 {
-    font-size: 18px;
-}
-
-h6 {
-    font-size: 16px;
-}
-
-p {
-    font-size: 14px;
-    color: #585858;
-    line-height: 2;
-}
-
-img {
-    max-width: 100%;
-}
-
-input,
-select,
-button,
-textarea {
-    &:focus {
-        outline: none;
-    }
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-    outline: none;
-}
-
-ul,
-ol {
-    padding: 0;
-    margin: 0;
-}
 
 /*---------------------
   Helper CSS
@@ -176,7 +98,7 @@ ol {
     min-width: 186px;
     padding: 17px 25px;
     border-radius: 14px;
-    background: $color;
+    background: $frn-orange;
     color: #fff;
     line-height: 1;
     cursor: pointer;
@@ -189,9 +111,9 @@ ol {
     }
     &.sb-line {
         background-color: transparent;
-        color: $color;
-        -webkit-box-shadow: inset 0 0 0 2px $color;
-        box-shadow: inset 0 0 0 2px $color;
+        color: $frn-orange;
+        -webkit-box-shadow: inset 0 0 0 2px $frn-orange;
+        box-shadow: inset 0 0 0 2px $frn-orange;
     }
 }
 
@@ -322,7 +244,7 @@ ol {
 }
 
 .accordion-area .panel-link.active {
-    background: $color2;
+    background: $frn-blue;
 }
 
 .accordion-area .panel-link,
@@ -395,7 +317,7 @@ ol {
         margin-right: 0;
     }
     .nav-tabs .nav-link.active {
-        background: $color;
+        background: $frn-orange;
     }
     .tab-pane {
         padding: 35px 20px 30px;
@@ -455,7 +377,7 @@ ol {
 .milestone-item {
     text-align: center;
     i {
-        color: $color;
+        color: $frn-orange;
         font-size: 76px;
     }
     h2 {
@@ -496,7 +418,7 @@ ol {
         -o-transition: all 0.4s;
         transition: all 0.4s;
         &:hover {
-            background: $color;
+            background: $frn-orange;
         }
     }
 }
@@ -540,7 +462,7 @@ ol {
             -o-transition: all 0.4s;
             transition: all 0.4s;
             &:hover {
-                color: $color;
+                color: $frn-orange;
             }
         }
     }
@@ -548,7 +470,7 @@ ol {
 
 .user-panel {
     float: right;
-    background: $color;
+    background: $frn-orange;
     color: #fff;
     margin-left: 30px;
     margin-right: 70px;
@@ -677,7 +599,7 @@ ol {
         display: inline-flex;
         width: 87px;
         height: 87px;
-        background: $color4;
+        background: $frn-light;
         font-size: 43px;
         color: #fff;
         -webkit-box-align: center;
@@ -802,7 +724,7 @@ ol {
             border-radius: 50%;
             background: #eef6f9;
             &.active {
-                background: $color;
+                background: $frn-orange;
             }
         }
     }
@@ -847,7 +769,7 @@ ol {
             font-weight: 700;
         }
         span {
-            color: $color;
+            color: $frn-orange;
             font-weight: 700;
         }
     }
@@ -915,7 +837,7 @@ ol {
     }
     &.gold-plan {
         .pricing-title {
-            background: $color;
+            background: $frn-orange;
         }
         .pricing-body {
             -webkit-box-shadow: inset 0 0 0 2px #eb2b63, 0px 32px 43px rgba(0, 0, 0, 0.35);
@@ -988,7 +910,7 @@ ol {
         height: 64px;
         float: left;
         margin-right: 22px;
-        background-color: $color;
+        background-color: $frn-orange;
         border-radius: 14px;
     }
     .lp-content {
@@ -1003,7 +925,7 @@ ol {
         }
         span {
             font-size: 12px;
-            color: $color;
+            color: $frn-orange;
         }
     }
 }
@@ -1030,7 +952,7 @@ ol {
             opacity: 0.26;
             margin-left: 40px;
             &:hover {
-                color: $color;
+                color: $frn-orange;
             }
         }
     }
@@ -1196,7 +1118,7 @@ ol {
     padding: 5px 15px;
     border-radius: 20px;
     min-width: 108px;
-    background: $color;
+    background: $frn-orange;
     margin-bottom: 15px;
 }
 
@@ -1242,7 +1164,7 @@ ol {
         color: #1c1c1c;
         margin-right: 1px;
         &.active {
-            color: $color;
+            color: $frn-orange;
         }
     }
 }
@@ -1307,7 +1229,7 @@ ol {
             margin-bottom: 10px;
             &.big-tag {
                 font-size: 18px;
-                color: $color;
+                color: $frn-orange;
             }
         }
     }

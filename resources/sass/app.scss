@@ -10,54 +10,14 @@
 @import '~bootstrap/scss/bootstrap';
 
 // style template
-@import 'ithoststyle';
+// @import 'ithoststyle';
 
-// overrides
-
-body {
-    color: #48515a;
-}
-h2 {
-    color: #12756b;
-    font-size: 38px;
-    margin-bottom: 3rem;
-}
-h3 {
-    margin-bottom: 1rem;
-}
-
-h4 {
-    margin-bottom: 1rem;
-}
-
-.site-btn {
-    font-size: 1.0rem;
+@import 'basics';
+@import 'layout';
 
 
-}
-.hero-section {
-    height: 720px;
-    background: #013536 !important;
-    background: radial-gradient(circle, #013536 0%, #011627 100%), url('img/agroecology1.jpg') !important;
-    margin-bottom: 5rem;
-    h4 {
-        font-weight: 500;
-    }
-    h2 {
-        font-weight: 600;
-    }
-}
-p {
-    display: block;
-    width: 100%;
-}
-
-a.blacklink {
-    color: #48515a;
-}
-a.blacklink:hover {
-    color: #000000 !important;
-}
+@import '~instantsearch.css/themes/algolia-min.css';
+@import 'resources';
 
 
 @media only screen and (min-width: 480px) and (max-width: 991px) {
@@ -102,7 +62,7 @@ a.blacklink:hover {
 
 
 .accordion-area .panel-link.active.collapsed {
-    background-color: $color4;
+    background-color: $frn-darkblue;
 }
 
 
@@ -164,20 +124,20 @@ a.blacklink:hover {
         font-weight: 900;
     }
     // .btn:hover {
-    //     color: $color2;
+    //     color: $frn-green;
     //     background-color: #fff;
     //     border-color: #fff;
     //     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.2s ease-in-out;
 
     .btn-primary {
-        color: $color4;
+        color: $frn-darkblue;
         background-color: #fff;
         border-color: #fff;
         font-weight: 600;
     }
     // .btn-primary:hover {
     //     color: #fff;
-    //     background-color: $color2;
+    //     background-color: $frn-green;
     //     border-color: #fff;
     //     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.2s ease-in-out;
     // }
@@ -239,6 +199,7 @@ a.blacklink:hover {
     line-height: 30px;
     border: 3px solid #c7c7c7;
     display: block;
+
     text-align: center;
     margin: 0 auto 10px auto;
     border-radius: 50%;
@@ -258,8 +219,8 @@ a.blacklink:hover {
     content: none;
 }
 .progressbar li.pb_done:before {
-    border-color: $color;
-    background-color: $color;
+    border-color: $frn-orange;
+    background-color: $frn-orange;
 }
 
 .progressbar li.pb_active:before {
@@ -267,12 +228,12 @@ a.blacklink:hover {
     height: 35px;
     content: " ";
 
-    border: 4px solid $color;
+    border: 4px solid $frn-orange;
 }
 .progressbar li.pb_done + li:after {
-    background-color: $color;
+    background-color: $frn-orange;
 
-    border-color: $color;
+    border-color: $frn-orange;
 }
 
 
@@ -376,7 +337,7 @@ a.blacklink:hover {
 }
 
 .ibalt {
-    background-color: $color3;
+    background-color: $frn-blue;
 
 }
 
@@ -389,7 +350,7 @@ a.blacklink:hover {
 //         padding: 1.6rem;
 //         border-radius: 0px !important;
 //         margin-top: 0.6rem;
-//         color: $color2;
+//         color: $frn-green;
 //         font-size: 1.3rem;
 //         line-height: 15px;
 //         font-weight: 700;
@@ -437,7 +398,7 @@ a.blacklink:hover {
 
 .tl-heading {
         margin-top: 0.6rem;
-        color: $color2;
+        color: $frn-green;
         font-size: 1.3rem;
         font-weight: 700;
         padding: 1.6rem;
@@ -496,7 +457,7 @@ a.blacklink:hover {
 
 .table {
     th {
-        color: $color2;
+        color: $frn-green;
         font-size: 1.3rem;
         font-weight: 700;
 
@@ -778,7 +739,7 @@ height: 100%;
 
 #checkboxes input[type=checkbox]:checked + label.checkdiv{
 
-background-color: $color2;
+background-color: $frn-green;
        div[class^="ibalt"] {
            -webkit-filter: opacity(50%) grayscale(70%) brightness(100%) contrast(75%);
         }

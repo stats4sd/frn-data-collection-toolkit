@@ -21,10 +21,10 @@ Route::resource('contact', 'ContactController', ['only' => ['index','store']]);
 
 
 Route::get('collections/{collection}', 'CollectionController@show');
+Route::get('resources/{trove}', 'TroveController@show');
 
 
-
-
+Route::get('download/{slug}/{storedName}/{name}', 'DownloadController@download')->name('download');
 
 
 // Catch-all route for making pages without writing php

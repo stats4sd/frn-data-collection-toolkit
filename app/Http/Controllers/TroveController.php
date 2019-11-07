@@ -46,7 +46,17 @@ class TroveController extends Controller
      */
     public function show(Trove $trove)
     {
-        //
+
+        // $files = $trove->elements_files;
+        // $videos = $trove->elements_videos;
+        // $urls = $trove->elements_urls;
+
+        return view('trove',
+                    ['trove' => $trove],
+                    // ['files' => $files],
+                    // ['videos' => $videos],
+                    // ['urls' => $urls],
+                );
     }
 
     /**

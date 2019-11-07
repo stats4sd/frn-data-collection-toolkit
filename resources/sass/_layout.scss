@@ -1,0 +1,84 @@
+
+// *****************************************************
+// Header
+// *****************************************************
+
+.header-lg {
+    min-height: 400px;
+}
+
+.header-sm {
+    min-height: 200px;
+}
+
+.frn-gradient {
+    background: #013536 !important;
+    background: radial-gradient(circle, #013536 0%, #011627 100%), url(/images/agroecology1.jpg?bbb4516bcae5a71125d240d20caf471f) !important;
+    background: radial-gradient(circle, #013536 0%, #011627 100%), url(/images/agroecology1.jpg?bbb4516bcae5a71125d240d20caf471f) !important;
+    margin-bottom: 5rem;
+}
+
+.navbar-nav {
+    list-style: none;
+    li {
+        display: inline;
+        a {
+            display: inline-block;
+            font-size: 16px;
+            color: #fff;
+            margin-left: 30px;
+            -webkit-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            transition: all 0.4s;
+            &:hover {
+                color: $frn-orange;
+            }
+        }
+    }
+}
+
+// *****************************************************
+// Footer
+// *****************************************************
+
+.footer-section {
+
+}
+
+
+// *****************************************************
+// Buttons
+// *****************************************************
+.site-btn {
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 186px;
+    padding: 17px 25px;
+    border-radius: 14px;
+    background: $frn-orange;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    &:hover {
+        color: #fff;
+    }
+    &.sb-line {
+        background-color: transparent;
+        color: $frn-orange;
+        -webkit-box-shadow: inset 0 0 0 2px $frn-orange;
+        box-shadow: inset 0 0 0 2px $frn-orange;
+    }
+}
+
+
+.divider {
+    height: 0.4rem;
+    width: 60px;
+    background-color: $frn-orange;
+    margin-bottom: 1.2rem;
+    position:relative;
+    top: -1rem;
+  }

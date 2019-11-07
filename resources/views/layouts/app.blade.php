@@ -23,49 +23,53 @@
 <body>
 
     <!-- Header section -->
-    <header class="header-section">
-        <!--<a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>-->
-        <div class="nav-switch">
-            <i class="fa fa-bars"></i>
-        </div>
-        <div class="nav-warp">
-            <!-- <div class="user-panel">
-                <a href="#">Login</a> /
-                <a href="#">Register</a>
-            </div> -->
-            <ul class="main-menu" style="padding-right: 70px;">
-                <li><a href="{{ url('/') }}">Home</a></li>
-                <li><a href="{{ url('about') }}">About</a></li>
-                <li><a href="{{ url('tools') }}">Tools</a></li>
-                <li><a href="{{ url('collaborate') }}">Collaborate</a></li>
-                <li><a href="{{ url('contact') }}">Contact</a></li>
-            </ul>
-        </div>
+
+    <header class="header-sm frn-gradient d-flex flex-column justify-content-between pt-4">
+        <nav class="navbar navbar-expand-sm navbar-dark justify-content-end">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse pr-4" id="main-menu">
+                <ul class="navbar-nav ml-auto justify-content-end">
+                    <li class="nav-item"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="{{ url('tools') }}" class="nav-link">Tools</a></li>
+                    <li class="nav-item"><a href="{{ url('collaborate') }}" class="nav-link">Collaborate</a></li>
+                    <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2 class="pb-4 text-white mx-auto"> @yield('title')</h2>
+
     </header>
-    <!-- Header section end -->
 
     @yield('content')
 
-        <!-- Footer section -->
-        <footer class="footer-section">
-            <div class="container">
-                <ul class="footer-menu">
-                    <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('about') }}">About</a></li>
-                    <li><a href="{{ url('tools') }}">Tools</a></li>
-                    <li><a href="{{ url('collaborate') }}">Collaborate</a></li>
-                    <li><a href="{{ url('contact') }}">Contact</a></li>
+    <!-- Footer section -->
+    <footer class="footer-section w-100">
+        <nav class="navbar navbar-expand-sm navbar-dark justify-content-end">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse pr-4" id="main-menu">
+                <ul class="navbar-nav ml-auto justify-content-end">
+                    <li class="nav-item"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="{{ url('tools') }}" class="nav-link">Tools</a></li>
+                    <li class="nav-item"><a href="{{ url('collaborate') }}" class="nav-link">Collaborate</a></li>
+                    <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+                    </li>
                 </ul>
-                <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
             </div>
-        </footer>
-        <!-- Footer top section end -->
+        </nav>
+    </footer>
 
 
-        <!--====== Javascripts & Jquery ======-->
-        <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 
 
 </body>

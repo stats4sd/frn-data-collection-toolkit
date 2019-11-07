@@ -5,9 +5,10 @@
  */
 
 require('./bootstrap');
-require('./ithoststyle');
 
-window.Vue = require('vue');
+import filesize from 'filesize';
+
+window.filesize = filesize;
 
 /**
  * The following block of code may be used to automatically register your
@@ -19,15 +20,26 @@ window.Vue = require('vue');
 
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+import Vue from 'vue';
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+import InstantSearch from 'vue-instantsearch';
+import Elements from './components/Elements'
+import ElementFile from './components/ElementFile'
+import ElementVideo from './components/ElementVideo'
+import ElementLink from './components/ElementLink'
+import Resources from './components/Resources'
+import Resourcepage from './components/Resourcepage'
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+Vue.use(InstantSearch);
+
+Vue.component("elements",Elements)
+Vue.component("element-file",ElementFile)
+Vue.component("element-video",ElementVideo)
+Vue.component("element-link",ElementLink)
+Vue.component("resources",Resources)
+Vue.component("resource-page",Resourcepage)
 
 const app = new Vue({
     el: '#app',
 });
+

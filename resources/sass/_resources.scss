@@ -1,0 +1,105 @@
+/*
+|--------------------------------------------------------------------------
+| Resources Page
+|--------------------------------------------------------------------------
+*/
+
+.service-icon {
+  background-color: $white;
+  color: $primary;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.resource-results-item {
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-left: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-top: 0.35rem !important;
+    color: $black !important;
+    //max-height: 250px;
+}
+
+.card-hover {
+    border-right: 3px solid #fff !important;
+    border-bottom: 3px solid #fff !important;
+    padding: 1rem;
+
+    &:hover {
+      border-right: 3px $gray-100 solid !important;
+      border-bottom: 3px $gray-100 solid !important;
+      //background-color: rgba(0, 0, 0, 0.02);
+
+        h3 {
+//            text-decoration: underline !important;
+            text-decoration-color: $frn-orange !important;
+        }
+        img {
+            opacity: 0.8;
+        }
+    }
+}
+
+a.card-link {
+    color: $frn-orange;
+    font-weight: bold;
+}
+
+a.card-link:hover {
+    color: #0e0e0e !important;
+    text-decoration: none;
+}
+
+.fill {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-height: 200px;
+
+    img {
+        flex-shrink: 0;
+        min-width: 100%;
+        //min-height: 100%;
+
+
+    }
+}
+.fill img:hover
+{
+    opacity: 0.8;
+}
+
+
+.element-card {
+    a {
+        color: $black;
+    }
+}
+
+p.card-body {
+
+        padding-left: 0rem;
+    }
+
+
+
+.res-el:hover {
+
+    .res-und {
+        text-decoration: underline;
+    }
+
+}
+.btn-reslist {
+    text-decoration: none !important;
+    position: static;
+}
