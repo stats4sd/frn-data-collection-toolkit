@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.smhead')
 
 @section('content')
 <!--
@@ -220,7 +220,7 @@
     <div id="wildfoods" class="collapse" aria-labelledby="wildfoods">
 
         <button class="btn tool-list tl-item">
-            
+
             Which months wildfoods collected
 </button>
         <button class="btn tool-list tl-item">
@@ -251,7 +251,7 @@
         Months of lean season
 </button>
         <button class="btn tool-list tl-item">
-        Worst month, best month 
+        Worst month, best month
 </button>
         <button class="btn tool-list tl-item">
         Household Food Insecurity Access Scale (HFIAS)
@@ -259,7 +259,7 @@
         <button class="btn tool-list tl-item">
         Food Insecurity Experience Scale (FIES)
 </button>
-        
+
     </div>
     <div class="panel-header" id="h-hdd">
         <button class="btn tool-list tl-heading tl-subh my-0"
@@ -287,8 +287,8 @@
         <button class="btn tool-list tl-item">
         Source of food groups during lean and good seasons
 </button>
-        
-        
+
+
     </div>
 
 
@@ -352,7 +352,7 @@
         <button class="btn tool-list tl-item">
         Gifts received
 </button>
-        
+
     </div>
 </div>
 <div class="tl-heading">
@@ -380,7 +380,7 @@
         <button class="btn tool-list tl-item">
         Gendered and youth decision making over incomes and farm production
 </button>
-        
+
     </div>
 
 
@@ -415,7 +415,7 @@
                                     one contrasted.
                                 </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -425,7 +425,7 @@
                             Fortune day out married parties.
                         </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -435,7 +435,7 @@
                             Happiness remainder joy but earnestly for off.
                         </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -445,7 +445,7 @@
                             Took sold add play may none him few.
                         </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -455,7 +455,7 @@
                             If as increasing contrasted entreaties be.
                         </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -465,7 +465,7 @@
                             Now summer who day looked our behind moment coming.
                         </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -475,7 +475,7 @@
                             Pain son rose more park way that.
                         </div>
                                 <div class="col-2 d-none d-sm-block my-auto" style="text-align: right;">
-                                    + 
+                                    +
                                 </div>
                             </div>
                         </button>
@@ -594,7 +594,7 @@
     </div> -->
 <!-- End Accordion -->
 
-   
+
     </div>
 
 

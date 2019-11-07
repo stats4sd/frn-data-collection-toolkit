@@ -1,20 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.smhead')
+
+@section('title')
+About
+@endsection
 
 @section('content')
-
-<!-- Hero section -->
-<section class="hero-section set-bg" data-setbg="{{ asset('img/agroecology.jpg') }}" style="height:400px !important">
-    <div class="container h-100">
-        <div class="hero-content text-white" style="align-items: flex-end">
-            <div class="d-flex justify-content-center pb-5">
-                <div class="col-lg-12 pr-0 text-center">
-                    <h2>About</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Hero section end -->
 
 <!-- Features section -->
 <section class="features-section mb-5 pb-5">
@@ -26,7 +16,7 @@
                 <div class="embed-responsive embed-responsive-16by9 mb-5">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/IRG0OZDD2yo" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  </div>
-                 <p>Resources are available on the <a href="{{ url('tools') }}">Tools page</a>, selected specifically with FRNs and related work in mind. We hope to expand this collection and promote sharing and collaboration across the network.</p>  
+                 <p>Resources are available on the <a href="{{ url('tools') }}">Tools page</a>, selected specifically with FRNs and related work in mind. We hope to expand this collection and promote sharing and collaboration across the network.</p>
                  <p>Groups and projects could use this platform to share what they use and find helpful, and tools, survey templates, exercises and learning materials that are generated as part of activities within.</p>
                  </div></div>
                  <div class="row px-3 px-md-0 pb-5 justify-content-center">
@@ -38,7 +28,7 @@
             </div>
             <div class="row px-3 px-md-0">
             <div class="col-md-10 offset-md-1">
-     
+
                 <h2>Core Tenets of the Platform</h2>
                 <p class="mb-5">These are our long-term aims for how the platform will work and what is to be included:</p>
                     <ol class="ml-4">

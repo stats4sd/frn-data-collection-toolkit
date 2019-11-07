@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.smhead')
 
 @section('title')
 {{ $trove->title }}

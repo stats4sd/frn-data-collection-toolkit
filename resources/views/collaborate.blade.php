@@ -1,20 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.smhead')
+
+
+@section('header')
+Collaborate
+@endsection
 
 @section('content')
 
-<!-- Hero section -->
-<section class="hero-section set-bg" data-setbg="{{ asset('img/agroecology.jpg') }}" style="height:400px !important">
-    <div class="container h-100">
-        <div class="hero-content text-white" style="align-items: flex-end">
-            <div class="d-flex justify-content-center pb-5">
-                <div class="col-lg-12 pr-0 text-center">
-                    <h2>Collaborate</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Hero section end -->
+
 
 <div class="container d-flex">
     <div class="row px-3 px-md-0">
