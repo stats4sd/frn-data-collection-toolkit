@@ -42,7 +42,7 @@
                 </ais-panel>
                 <!-- <ais-configure :hitsPerPage="8" /> -->
             </div>
-            <div class="col">
+            <div class="col-md-8">
                 <ais-search-box class="pb-4 mt-2"/>
                 <ais-current-refinements />
                 <div class="d-flex justify-content-between">
