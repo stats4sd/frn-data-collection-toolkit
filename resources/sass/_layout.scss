@@ -5,10 +5,27 @@
 
 .header-lg {
     min-height: 400px;
+    h2 {
+        font-size: 70px !important;
+    }
 }
 
 .header-sm {
-    min-height: 200px;
+    min-height: 250px;
+    h2 {
+        font-size: 60px !important;
+    }
+}
+.header-lg,.header-sm {
+    h2 {
+        font-weight: 600;
+        text-align: center;
+    }
+}
+h4.header {
+    color: #fff;
+    text-align: center;
+
 }
 
 .frn-gradient {

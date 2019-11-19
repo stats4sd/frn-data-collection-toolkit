@@ -12,6 +12,7 @@ h1 {
 h2 {
     color: #12756b;
     font-size: 38px;
+    margin-bottom: 1.8rem;
 }
 
 h3 {
@@ -36,6 +37,10 @@ h6 {
     font-size: 16px;
     margin-bottom: 1rem;
 
+}
+
+h2,h3,h4,h5,h6 {
+    width: 100%;
 }
 
 p {

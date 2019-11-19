@@ -28,7 +28,6 @@ import ElementFile from './components/ElementFile'
 import ElementVideo from './components/ElementVideo'
 import ElementLink from './components/ElementLink'
 import Resources from './components/Resources'
-import Resourcepage from './components/Resourcepage'
 
 Vue.use(InstantSearch);
 
@@ -37,7 +36,6 @@ Vue.component("element-file",ElementFile)
 Vue.component("element-video",ElementVideo)
 Vue.component("element-link",ElementLink)
 Vue.component("resources",Resources)
-Vue.component("resource-page",Resourcepage)
 
 const app = new Vue({
     el: '#app',

@@ -48,7 +48,7 @@
 }
 
 a.card-link {
-    color: $frn-orange;
+    color: #000;
     font-weight: bold;
 }
 
@@ -102,4 +102,20 @@ p.card-body {
 .btn-reslist {
     text-decoration: none !important;
     position: static;
+}
+
+.rescard {
+    border: none;
+    margin-top: 2rem;
+}
+
+
+//Collections 
+
+.collection {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    position: relative;
+    top: -2rem;
 }

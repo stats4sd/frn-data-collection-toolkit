@@ -246,7 +246,7 @@ Tools
 
     <div class="row pt-5">
         <h3 class="mb-5">View all Tools</h3>
-        <p>Browse by tag or search for keywords in the database of FRN-related tools. This database is powered by the <a href="{{ url('resources') }}">Stats4SD Resources Repository</a>, which contains hundreds of resources accross a broad range of topics, including statistics, data analysis and research methods.</p>
+        <p>Browse by tag or search for keywords in the database of FRN-related tools. This database is powered by the <a href="{{ url('resources') }}">Stats4SD Resources Repository</a>, which contains hundreds of resources across a broad range of topics, including statistics, data analysis and research methods.</p>
     </div>
     <div class="row justify-content-center">
         <a href="{{ url('resources?refinementList[tags.name.en][0]=AEI%20for%20review&refinementList[tags.name.en][1]=FRN&refinementList[tags.name.en][2]=Farmer%20Analysis&refinementList[tags.name.en][3]=Participatory&refinementList[tags.name.en][4]=Farmer%20Participatory%20Research&refinementList[tags.name.en][5]=Pest%20Management#resources-app') }}">

@@ -97,14 +97,14 @@
                                     <div class="col-md-8 position-static ">
                                         <div class="card-body px-0 pl-md-4 pt-0 pt-md-0">
                                             <div class="card-title mb-2">
-                                                <h3 class="pb-3">
+                                                <h4 class="pb-3">
                                                     <a
                                                     :href="baseUrl + '/resources/' + item.id"
                                                     class="card-link ml-auto"
                                                     >
                                                         {{ item.title }}
                                                     </a>
-                                                </h3>
+                                                </h4>
                                                 <p class="text-small">
                                                     {{ item.type.name }}
                                                 </p>

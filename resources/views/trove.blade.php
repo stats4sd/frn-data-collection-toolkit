@@ -1,7 +1,7 @@
 @extends('layouts.smhead')
 
 @section('title')
-{{ $trove->title }}
+Tools
 @endsection
 
 @section('content')
@@ -19,7 +19,8 @@
         </div>
 
         <div class="ml-0 ml-lg-4 mt-4 mt-lg-0">
-
+<h3>
+{{ $trove->title }}</h3>
             @if( $trove->type )
                 <h5>
                     {{ $trove->type->name }}

@@ -1,7 +1,7 @@
 @extends('layouts.smhead')
 
 
-@section('header')
+@section('title')
 Collaborate
 @endsection
 

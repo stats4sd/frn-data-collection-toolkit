@@ -20,11 +20,11 @@
 @import 'resources';
 
 
-@media only screen and (min-width: 480px) and (max-width: 991px) {
+
     .hero-content h2 {
         font-size: 70px !important;
     }
-}
+
 @media only screen and (max-width: 991px) {
     .hero-section {
         height: 750px !important;
@@ -802,3 +802,5 @@ text-decoration: underline;
 .frnmore:hover {
     background-color: #545e66 !important;
 }
+
+
