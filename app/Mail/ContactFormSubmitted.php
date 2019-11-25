@@ -2,7 +2,7 @@
 
 namespace App\Mail;
 
-use App\Contact;
+use App\Models\Contact;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Log;
 
 class ContactFormSubmitted extends Mailable
 {
-    public $info;
+    public $contact;
 
     use Queueable, SerializesModels;
 
@@ -23,7 +23,7 @@ class ContactFormSubmitted extends Mailable
     public function __construct(Contact $contact)
     {
         //
-        $this->info = $contact;
+        $this->contact = $contact;
     }
 
     /**
@@ -33,6 +33,6 @@ class ContactFormSubmitted extends Mailable
      */
     public function build()
     {
-        return $this->from($this->info->email)->subject('FRN Info Platform - New Message')->markdown('mail.contactform');
+        return $this->from($this->contact->email)->subject('FRN Info Platform - New Message ( ' . $this->contact->purpose . ' )')->markdown('mail.contactform');
     }
 }

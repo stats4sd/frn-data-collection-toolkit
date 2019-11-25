@@ -14,40 +14,19 @@ Contact
 
             <p>Do you have a resource you want to share? Do you want to get involved in curating and reviewing our collection? Do you have comments or feedback for us? </p>
             <p>Use the form below to contact us, and we'll get back to you as soon as we can.</p>
-            @if(Session::has('success'))
-               <div class="alert alert-success">
-                 {{ Session::get('success') }}
-               </div>
-            @endif
-            {!! Form::open(['route'=>'contact.store']) !!}
-
-
-            <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }} mt-5">
-            {!! Form::label('Name:') !!}
-            {!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Enter Your Name']) !!}
-            <span class="text-danger">{{ $errors->first('name') }}</span>
+            <div id="app">
+                <contact-form route="{{ route('contact.store') }}">
+                    <template v-slot:recaptcha>
+                        @if(config('services.recaptcha.key'))
+                            <div class="form-group required {{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
+                                <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
+                                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                            </div>
+                        @endif
+                    </template>
+                </contact-form>
             </div>
-            <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-            {!! Form::label('Email:') !!}
-            {!! Form::text('email', old('email'), ['class'=>'form-control', 'placeholder'=>'Enter Your Email']) !!}
-            <span class="text-danger">{{ $errors->first('email') }}</span>
-            </div>
-            <div class="form-group {{ $errors->has('message') ? 'has-error' : '' }}">
-            {!! Form::label('Message:') !!}
-            {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Enter Message']) !!}
-            <span class="text-danger">{{ $errors->first('message') }}</span>
-            </div>
-            @if(config('services.recaptcha.key'))
-                <div class="form-group {{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
-                    <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
-                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                    <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-                </div>
-            @endif
-            <div class="form-group">
-            <button class="btn btn-primary site-btn mt-3">Contact Us</button>
-            </div>
-            {!! Form::close() !!}
         </div>
     </div>
 </div>

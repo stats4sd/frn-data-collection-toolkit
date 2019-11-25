@@ -3,14 +3,16 @@
 
 A new message has been received from the FRN Info Platform contact form:
 
-Name: **{{ $info->name }}**
-Email: **{{ $info->email }}**
+Name: **{{ $contact->name }}**
+Email: **{{ $contact->email }}**
+
+Purpose: **{{ $contact->purpose }}**
 
 Message:
 
 ---
 
-{{ $info->message }}
+{{ $contact->message }}
 
 ---
 

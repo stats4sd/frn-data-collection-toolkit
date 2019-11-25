@@ -61,3 +61,10 @@ a.blacklink {
 a.blacklink:hover {
     color: #000000 !important;
 }
+
+.form-group.required {
+    label:after {
+        content:"*";
+        color: red;
+    }
+}

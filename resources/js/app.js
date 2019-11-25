@@ -18,24 +18,27 @@ window.filesize = filesize;
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-// const files = require.context('./', true, /\.vue$/i);
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+const files = require.context('./', true, /\.vue$/i);
+files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
+
 import Vue from 'vue';
 
 import InstantSearch from 'vue-instantsearch';
-import Elements from './components/Elements'
-import ElementFile from './components/ElementFile'
-import ElementVideo from './components/ElementVideo'
-import ElementLink from './components/ElementLink'
-import Resources from './components/Resources'
+// import Elements from './components/Elements';
+// import ElementFile from './components/ElementFile';
+// import ElementVideo from './components/ElementVideo';
+// import ElementLink from './components/ElementLink';
+// import Resources from './components/Resources';
+// import Contact from './components/Contact';
 
 Vue.use(InstantSearch);
 
-Vue.component("elements",Elements)
-Vue.component("element-file",ElementFile)
-Vue.component("element-video",ElementVideo)
-Vue.component("element-link",ElementLink)
-Vue.component("resources",Resources)
+// Vue.component("contact-form", Contact);
+// Vue.component("elements",Elements);
+// Vue.component("element-file",ElementFile);
+// Vue.component("element-video",ElementVideo);
+// Vue.component("element-link",ElementLink);
+// Vue.component("resources",Resources);
 
 const app = new Vue({
     el: '#app',

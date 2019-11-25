@@ -59,6 +59,7 @@ class ContactController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'message' => 'required',
+            'purpose' => 'required',
         ]);
 
 
@@ -68,7 +69,7 @@ class ContactController extends Controller
             new ContactFormSubmitted($contact)
         );
 
-        return back()->with('success', 'Thanks for contacting us. Your message has been forwarded to the RMS team');
+        return response()->json(null, 200);
     }
 
     /**
