@@ -21,13 +21,6 @@ Contact
             @endif
             {!! Form::open(['route'=>'contact.store']) !!}
 
-            @if(config('services.recaptcha.key'))
-                <div class="form-group {{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
-                    <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
-                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                    <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-                </div>
-            @endif
 
             <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }} mt-5">
             {!! Form::label('Name:') !!}
@@ -44,6 +37,13 @@ Contact
             {!! Form::textarea('message', old('message'), ['class'=>'form-control', 'placeholder'=>'Enter Message']) !!}
             <span class="text-danger">{{ $errors->first('message') }}</span>
             </div>
+            @if(config('services.recaptcha.key'))
+                <div class="form-group {{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
+                    <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                    <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                </div>
+            @endif
             <div class="form-group">
             <button class="btn btn-primary site-btn mt-3">Contact Us</button>
             </div>
