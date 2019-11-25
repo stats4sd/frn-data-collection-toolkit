@@ -7,7 +7,7 @@
 
 <div class="container" style="width: 100%; max-width: 100vw;">
     <div class="row" style="height: 100vh">
-        <div class="col-md-6 set-bg order-2 display-none display-md-block"
+        <div class="col-md-6 sbintro-bg order-2 display-none display-md-block"
             data-setbg="{{ asset('img/agroecology1.jpg') }}"> </div>
         <div class="col-md-6 splash" style="background-color: #011627">
             <!-- <div class="py-5 px-5 splash" style="height: 100vh; width: 50vw; min-width: 360px; background-color: #12756b"> -->

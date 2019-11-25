@@ -42,7 +42,7 @@
 
         <p>The FRN Toolkit aims to provide a <b>platform for knowledge-sharing</b> between projects in the CCRP network.</p>
         <p>It contains a range of items to support FRNs, including learning materials to build capacity, tools, templates and ideas to help run activities, carry out research and more generally broaden the potential and quality of community research activities within CCRP. You can explore the collection on the <a href="{{ url('tools') }}">Tools</a> page. </p>
-        <p>It is open to submission from anyone within CCRP who has a resource they would like to share. </p>
+        <p>It is open to <a href="{{ url('contact') }}">submission</a> from anyone within CCRP who has a resource they would like to share. </p>
         <p>At present, this platform is in development, and we are seeking feedback from CCRP projects. We'd love to know if you're interested in the platform, if you have any suggestions or requests, or if you have any items you want to share. Please <a href="{{ url('contact') }}">contact us</a> if you would like to get involved. </p>
 </div>
 </div>

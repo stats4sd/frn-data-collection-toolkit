@@ -42,7 +42,7 @@ Tools
         </div>
     </div>
 
-    <div class="card border-light pb-4">
+    <div class="pb-4">
         <div class="card-body pl-0">
             <span class="font-weight-bold">Author(s):</span>
             @foreach($trove->authors as $author)
