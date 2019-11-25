@@ -18,7 +18,7 @@
 
             <a
             :href="element.download"
-            class="stretched-link btn btn-stats btn-reslist pb-2 mt-0"
+            class="stretched-link btn site-btn btn-reslist text-white mt-0"
             >
                 Download <ion-icon
                 name="download"

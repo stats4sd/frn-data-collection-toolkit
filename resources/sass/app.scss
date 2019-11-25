@@ -19,7 +19,7 @@
 @import '~instantsearch.css/themes/algolia-min.css';
 @import 'resources';
 
-
+ 
 
     .hero-content h2 {
         font-size: 70px !important;
@@ -55,10 +55,7 @@
     }
 }
 
-.ft-links .ft-icon:hover {
-    background: #10426b !important;
-    transition: background-color 0.15s ease-in-out;
-}
+
 
 
 .accordion-area .panel-link.active.collapsed {
@@ -584,6 +581,133 @@ td:first-child {
         color: #000000 !important;
 
 }
+
+/* Accordion */
+
+.accordion-area .panel {
+    margin-bottom: 16px;
+}
+
+.accordion-area .panel-link:after {
+    content: "+";
+    position: absolute;
+    font-size: 15px;
+    right: 26px;
+    top: 0;
+    line-height: 16px;
+    width: 15px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.faq-accordion.accordion-area .panel-link,
+.faq-accordion.accordion-area .panel-link.active.collapsed {
+    padding: 17px 100px 17px 20px;
+}
+
+.faq-accordion.accordion-area .panel-link:after {
+    right: 44px;
+}
+
+.accordion-area .panel-header .panel-link.collapsed {
+    &:after {
+        content: "+";
+    }
+}
+
+.accordion-area .panel-link.active:after {
+    content: "-";
+}
+
+.accordion-area .panel-link.active {
+    background: $frn-green;
+}
+
+.accordion-area .panel-link,
+.accordion-area .panel-link.active.collapsed {
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 17px 65px 17px 20px;
+    padding-left: 41px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    cursor: pointer;
+    border: none;
+    min-height: 70px;
+    border-radius: 13px;
+//    @extend .bg-gradient;
+}
+
+.accordion-area .panel-body {
+    padding: 45px 2px 0;
+    h4 {
+        margin-bottom: 25px;
+    }
+    p {
+        font-size: 15px;
+        margin-bottom: 0;
+        line-height: 1.8;
+    }
+    img {
+        border-radius: 15px;
+    }
+}
+
+.faq-accordion .panel-body {
+    padding: 50px 5px 0;
+    h4 {
+        padding-top: 25px;
+    }
+    p {
+        font-size: 15px;
+        margin-bottom: 0;
+        line-height: 1.8;
+    }
+    img {
+        border-radius: 15px;
+    }
+}
+.feature-item {
+    text-align: center;
+    margin-bottom: 55px;
+    .ft-icon {
+        display: -ms-inline-flex;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        width: 87px;
+        height: 87px;
+        background: $frn-light;
+        font-size: 43px;
+        color: #fff;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+}
+.ft-links .ft-icon:hover {
+    color: #10426b !important;
+    transition: color 0.15s ease-in-out;
+}
+
 //**************
 //QG Formatting
 //**************
@@ -804,3 +928,24 @@ text-decoration: underline;
 }
 
 
+.sbintro-bg {
+    background-image: url('img/agroecology1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+
+}
+
+
+//about page
+.icon-cap {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    img{
+        width: 40%;
+    }
+}
+ol li::marker {
+        font-weight: bold;
+}

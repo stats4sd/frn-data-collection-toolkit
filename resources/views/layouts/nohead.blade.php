@@ -32,20 +32,24 @@
     @yield('content')
 
         <!-- Footer section -->
-        <footer class="footer-section">
-            <div class="container">
-                <ul class="footer-menu">
-                    <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('about') }}">About</a></li>
-                    <li><a href="{{ url('tools') }}">Tools</a></li>
-                    <li><a href="{{ url('collaborate') }}">Collaborate</a></li>
-                    <li><a href="{{ url('contact') }}">Contact</a></li>
+        <footer class="footer-section w-100">
+        <nav class="navbar navbar-expand-sm navbar-dark justify-content-end">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse pr-4" id="main-menu">
+                <ul class="navbar-nav ml-auto justify-content-end">
+                    <li class="nav-item"><a href="{{ url('/') }}" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="{{ url('about') }}" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="{{ url('tools') }}" class="nav-link">Tools</a></li>
+                    <li class="nav-item"><a href="{{ url('collaborate') }}" class="nav-link">Collaborate</a></li>
+                    <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact</a></li>
+                    </li>
                 </ul>
-                <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
             </div>
-        </footer>
+        </nav>
+    </footer>
         <!-- Footer top section end -->
 
 

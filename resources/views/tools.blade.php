@@ -13,7 +13,7 @@ Tools
         <div class="col-md-10 offset-md-1 px-md-5">
             <p>Below you can explore our curated collection of resources for use with FRNs. Browse
                 the categories to find useful tools or search the database.</p>
-            <p>The collection is selected by and for the CCRP network. We are seeking contributions; if you have a tool or resource you want to share, please <a href="{{ url('contact') }}">contact us</a>.</p>
+            <p>The collection is selected by and for the CCRP network. <strong>We are seeking contributions</strong>; if you have a tool or resource you want to share, please <a href="{{ url('contact') }}">contact us</a>.</p>
         </div>
     </div>
 </div>
