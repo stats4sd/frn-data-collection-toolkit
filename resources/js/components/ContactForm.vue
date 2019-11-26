@@ -84,6 +84,7 @@
             <div class="g-recaptcha"
                 :data-sitekey="siteKey"
                 :data-callback="updateRecaptcha"
+                v-model="fields['g-recaptcha-response']"
             ></div>
             <span class="text-danger" v-if="errors['g-recaptcha-response']">{{ errors['g-recaptcha-response'] }}</span>
         </div>
