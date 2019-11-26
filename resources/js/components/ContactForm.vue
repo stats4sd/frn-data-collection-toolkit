@@ -80,7 +80,14 @@
             <span class="text-danger" v-if="errors.message">{{ errors.message }}</span>
         </div>
 
-        <slot name="recaptcha"></slot>
+        <div class="form-group required" :class="{ 'has-error' : errors['g-recaptcha-response']}" v-if="siteKey">
+            <div class="g-recaptcha"
+                :data-sitekey="siteKey"
+                :data-callback="updateRecaptcha"
+            ></div>
+            <span class="text-danger" v-if="errors['g-recaptcha-response']">{{ errors['g-recaptcha-response'] }}</span>
+        </div>
+
         <div class="form-group">
             <button class="btn btn-primary site-btn mt-3" :disabled="!loaded">
                 <span v-if="loaded">Contact Us</span>
@@ -101,6 +108,7 @@
 
         data() {
             return {
+                siteKey: process.env.MIX_RECAPTCHA_KEY,
                 errors: {},
                 fields: {},
                 success: false,
@@ -116,6 +124,11 @@
         },
 
         methods: {
+
+            updateRecaptcha(response) {
+                this.fields['g-recaptcha-response'] = response;
+            },
+
             submit() {
 
                 this.loaded = false;
