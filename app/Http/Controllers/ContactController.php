@@ -42,16 +42,16 @@ class ContactController extends Controller
         if(config('services.recaptcha.key')) {
 
             $this->validate($request, [
-                'g-recaptcha-response' => 'required'
+                'recaptcha' => 'required'
             ], [
-            'g-recaptcha-response.required' => 'Please complete the recaptcha.'
+            'recaptcha.required' => 'Please complete the recaptcha.'
             ]);
 
             // validate recaptcha
-            $captchaSuccess = GenericHelper::validateRecaptcha($_POST['g-recaptcha-response']);
+            $captchaSuccess = GenericHelper::validateRecaptcha($request->recaptcha);
 
             if(! $captchaSuccess){
-                return redirect('contact')->withErrors(['g-recaptcha-response' => 'failed to validate recaptcha'])->withInput();
+                return redirect('contact')->withErrors(['recaptcha' => 'failed to validate recaptcha'])->withInput();
             }
         }
 

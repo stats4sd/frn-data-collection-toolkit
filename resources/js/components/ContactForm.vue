@@ -80,13 +80,10 @@
             <span class="text-danger" v-if="errors.message">{{ errors.message }}</span>
         </div>
 
-        <div class="form-group required" :class="{ 'has-error' : errors['g-recaptcha-response']}" v-if="siteKey">
-            <div class="g-recaptcha"
-                :data-sitekey="siteKey"
-                :data-callback="updateRecaptcha"
-                v-model="fields['g-recaptcha-response']"
-            ></div>
-            <span class="text-danger" v-if="errors['g-recaptcha-response']">{{ errors['g-recaptcha-response'] }}</span>
+        <div class="form-group required" :class="{ 'has-error' : errors['recaptcha']}" v-if="siteKey">
+
+            <vue-recaptcha :sitekey="siteKey" :loadRecaptchaScript="true" v-on:verify="updateRecaptcha"></vue-recaptcha>
+            <span class="text-danger" v-if="errors['recaptcha']">{{ errors['recaptcha'] }}</span>
         </div>
 
         <div class="form-group">
@@ -101,11 +98,17 @@
 
 <script>
 
+
+    import VueRecaptcha from 'vue-recaptcha';
+
+
     export default {
 
         props: {
             route: String,
         },
+
+        components: { VueRecaptcha },
 
         data() {
             return {
@@ -127,8 +130,7 @@
         methods: {
 
             updateRecaptcha(response) {
-                console.log("hello");
-                this.fields['g-recaptcha-response'] = response;
+                this.fields['recaptcha'] = response;
             },
 
             submit() {

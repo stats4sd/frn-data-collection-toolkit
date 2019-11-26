@@ -26,7 +26,7 @@ class GenericHelper
         $postObject = [
         'form_params' => [
                 'secret' => config('services.recaptcha.secret'),
-                'response' => $_POST["g-recaptcha-response"],
+                'response' => $recaptchaResponse,
             ]
         ];
 
