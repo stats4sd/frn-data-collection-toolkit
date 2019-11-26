@@ -34,7 +34,7 @@
         </div>
 
         <div class="form-group required" :class="{ 'has-error' : errors.purpose }">
-            <label>Whats is the purpose of your message?</label>
+            <label>What is the purpose of your message?</label>
             <select
                 class="form-control"
                 data-placeholder="Select Purpose"
@@ -72,6 +72,7 @@
             <label>Message:</label>
             <textarea
                 class="form-control"
+                style="height: 10rem;"
                 placeholder="Enter Your Message"
                 name="message"
                 v-model="fields.message">
