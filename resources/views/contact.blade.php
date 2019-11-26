@@ -16,7 +16,7 @@ Contact
             <p>Use the form below to contact us, and we'll get back to you as soon as we can.</p>
             <div id="app">
                 <contact-form route="{{ route('contact.store') }}">
-                    <template v-slot:="recaptcha">
+                    <template v-slot:recaptcha>
                         @if(config('services.recaptcha.key'))
                             <div class="form-group required {{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
                                 <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
