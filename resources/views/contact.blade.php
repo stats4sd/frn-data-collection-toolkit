@@ -26,10 +26,10 @@ Contact
                     </template>
                 </contact-form>
 
-                @if(config('services.recaptcha.key'))
-                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                @endif
             </div>
+            @if(config('services.recaptcha.key'))
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            @endif
         </div>
     </div>
 </div>
