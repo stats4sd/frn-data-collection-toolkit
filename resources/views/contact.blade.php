@@ -20,12 +20,15 @@ Contact
                         @if(config('services.recaptcha.key'))
                             <div class="form-group required {{ $errors->has('g-recaptcha-response') ? 'has-error' : '' }}">
                                 <div class="g-recaptcha" data-sitekey="{{ config('services.recaptcha.key') }}"></div>
-                                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                                 <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
                             </div>
                         @endif
                     </template>
                 </contact-form>
+
+                @if(config('services.recaptcha.key'))
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                @endif
             </div>
         </div>
     </div>
