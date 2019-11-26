@@ -126,6 +126,7 @@
         methods: {
 
             updateRecaptcha(response) {
+                console.log("hello");
                 this.fields['g-recaptcha-response'] = response;
             },
 
