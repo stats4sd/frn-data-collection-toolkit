@@ -1,6 +1,6 @@
 
 # FRN Data Collection Toolkit
-_A platform for researchers to share instruments, methods, and improve harmonisation of data collection with and for Farmer Research Networks_
+A platform for researchers to share instruments, methods, and improve harmonisation of data collection with and for Farmer Research Networks.
 
 ### Core Tenets:
 1. Tools shared through the platform are not prescriptive. They are templates/ideas/tools for users to take, modify, improve on and make their own.
@@ -19,44 +19,18 @@ _A platform for researchers to share instruments, methods, and improve harmonisa
     - enabling quick packaging of particular sets of tools onto portable media (USB Sticks, DVDs)
     - ability to quickly print packs of analogue materials for sharing and discussions offline / without computers.
 
-## Setup Dev Environment
-
-### Standard Laravel setup
-
-In a terminal window, starting where-ever you put your local development sites:
-
+## Setup Local Environment
+1.	Clone repo: `git@github.com:stats4sd/frn-data-collection-toolkit.git frn-data`
+2.	Copy `.env.example` as a new file and call it `.env`
+3.	Update variables in `.env` file to match your local environment:
+    a.	Check APP_URL is correct
+    b.	Update DB_DATABASE (name of the local MySQL database to use), DB_USERNAME (local MySQL username) and DB_PASSWORD (local MySQL password)
+4.	Create a local MySQL database with the same name used in the `.env` file
+5.	Run the following setup commands in the root project folder:
 ```
-git clone git@github.com:stats4sd/frn-data-collection-toolkit.git frn-data
-cd frn-data
 composer install
+php artisan key:generate
 npm install
-cp .env-example .env
+npm run dev
 ```
-Then, update the values in .env:
-
-```
-APP_URL=http://frn-data.test
-
-DB_DATABASE=frndata
-DB_USERNAME= ##your_local_mysql_username##
-DB_PASSWORD= ##your_local_mysql_password##
-```
-
-Create the database: 
-```
-mysql -u ##your_local_mysql_username## -p 
-(enter your password)
-create database frndata;
-exit;
-
-```
-
-Migrate:
-```
-php artisan migrate
-```
-
-
-
-
-
+6.	Migrate the database: `php aritsan migrate:fresh --seed`
